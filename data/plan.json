@@ -1,0 +1,2834 @@
+{
+ "how_to_read": [
+  "Do the 36 sessions in order. Train no more than 3 sessions in any 7 days, and ideally no more than 2 days in a row.",
+  "If 14 or more days pass between sessions, repeat your last session before moving on.",
+  "Two numbers joined by / read as him/her: Goblet Squats (35/25) means he uses the 35 lb kettlebell and she uses the 25.",
+  "No set goes past technical failure. Technical failure is when your form breaks down and you have a sloppy rep.",
+  "Strength: one person works through the full set while the other rests, then switch. Conditioning: each piece says where each of you starts or when to switch, so you never need the same equipment at the same time.",
+  "From Session 13, some lifts use percentages. Enter your test sets on the Working Weights tab and it shows each weight.",
+  "Cooldown at the end of each session: 3:00-5:00 walk, then lightly stretch the muscles trained."
+ ],
+ "equipment": {
+  "bar_lb": 45,
+  "plate_pairs_lb": [
+   5,
+   10,
+   25,
+   35
+  ],
+  "bar_loads_lb": [
+   45,
+   55,
+   65,
+   75,
+   95,
+   105,
+   115,
+   125,
+   135,
+   145,
+   165,
+   175,
+   185,
+   195
+  ],
+  "db_step_lb": 5
+ },
+ "groups": [
+  {
+   "group": 1,
+   "label": "Sessions 1-3",
+   "phase": "Phase 1: Learn the lifts",
+   "tag": "",
+   "sessions": [
+    {
+     "n": 1,
+     "lift": "Dumbbell Bench Press",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog and 2:00 jump rope. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Band Pull-Aparts",
+        "10 Plank Shoulder Taps",
+        "5 Inchworms",
+        "10 Band Pass-Throughs"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Dumbbell Bench Press + TRX Row",
+       "lines": [
+        "Build-up:",
+        "10 Dumbbell Bench Press, light",
+        "5 Dumbbell Bench Press, moderate",
+        "",
+        "Then 3 Sets:",
+        "10 Dumbbell Bench Press",
+        "10-12 TRX Rows"
+       ],
+       "rotation": [
+        "One person works through both bench and rows while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Choose dumbbells you could press about 13 times. If the tenth rep moves as fast as the first, go up in weight next set. Walk your feet forward on the TRX to make rows harder or back to make them easier.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "bench",
+        "load_kind": "db",
+        "pct_lines": [],
+        "test": null
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "4 x 4:00 (19:00 total):",
+        "Each set: as many rounds and reps as possible in 4:00 of:",
+        "8 Dips",
+        "12 Sit-ups/Crunches/V-ups",
+        "16 Air Squats"
+       ],
+       "rotation": [
+        "Rest 1:00 between sets, and pick up where you left off.",
+        "You both work at the same time: one of you on the dip station, the other on the bench."
+       ],
+       "notes": "Choose a dip variation (dip station, bench dips, band-assisted) that allows you to get 8+ reps per set.",
+       "clock_min": 19,
+       "score_label": "Rounds + reps, all 4 sets"
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "lift": "Romanian Deadlift",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog, 1:00 jump rope, and 1:00 of mountain climbers. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Bodyweight Good Mornings",
+        "10 Glute Bridges",
+        "10 Air Squats",
+        "10 Pogo Hops (small, quick jumps off the balls of your feet)"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Romanian Deadlift + Squat Jumps + Seated Dumbbell Strict Press",
+       "lines": [
+        "Build-up:",
+        "5 Romanian Deadlifts, empty bar",
+        "5 Romanian Deadlifts, light",
+        "",
+        "Then 3 Sets:",
+        "10 Romanian Deadlifts",
+        "3 Squat Jumps, right after your last deadlift rep",
+        "10 Seated Dumbbell Strict Presses"
+       ],
+       "rotation": [
+        "One person works through a full set while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Deadlift the bar off the floor to stand tall. Start each rep by pushing your hips back with soft knees, and lower to just below the knee or until your back starts to round, whichever comes first. On the squat jumps, jump for height, land softly, and reset between reps.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "rdl",
+        "load_kind": "bar",
+        "pct_lines": [],
+        "test": null
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "On the Minute x 16:00 (4 rounds of 4 stations):",
+        "Station 1: Single-Arm Dumbbell Hang Snatches",
+        "Station 2: Flutter Kicks",
+        "Station 3: Box Step-ups or Box Jumps",
+        "Station 4: Easy Treadmill Run"
+       ],
+       "notes": "Work for the full 1:00 at each station. Snatches: Swing the dumbbell between your legs, then straight up overhead. Choose a dumbbell you can snatch for at least 5 reps per arm without setting it down. Switch arms every 5 reps. Flutter Kicks: Keep your low back pressed into the ground.",
+       "clock_min": 16,
+       "score_label": "Total reps"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "lift": "Back Squat",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog and 2:00 jump rope. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Air Squats (3 seconds down)",
+        "10 Glute Bridges",
+        "5 Inchworms",
+        "0:20 Bottom-of-Squat Hold"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Back Squat + Pull-ups",
+       "lines": [
+        "Build-up:",
+        "10 Back Squats, empty bar",
+        "5 Back Squats, light",
+        "3 Back Squats, moderate",
+        "",
+        "Then 3 Sets:",
+        "8-10 Back Squats",
+        "3-6 Pull-ups: strict, band-assisted, or jump to the top and lower slowly"
+       ],
+       "rotation": [
+        "One person works through both squat and pull-ups while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Set the bar at mid-chest height. Squat to the depth you can control with heels down and back flat. If a rep slows down sharply, rack the bar. For pull-ups, use the hardest version you can do for at least 3 reps. If you can't do any pull-ups, do TRX Rows.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "squat",
+        "load_kind": "bar",
+        "pct_lines": [],
+        "test": null
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "20:00 clock. Switch stations every 2:00.",
+        "Station 1: 2:00 Incline Treadmill Walk",
+        "Station 2: 3 Walkouts to Down Dog + 10 Alternating Reverse Lunges + 10 Band Pull-Aparts, repeated at an easy pace for 2:00"
+       ],
+       "rotation": [
+        "One of you starts on the treadmill, the other on Station 2."
+       ],
+       "notes": "Walk as fast as you can without running, with the incline set between 8% and 15%. Walkouts to Down Dog: Hinge to put your hands on the floor, walk them out to a plank, push your hips up and back into down dog, then walk your hands back to your feet.",
+       "clock_min": 20,
+       "score_label": "Walking speed and incline"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "group": 2,
+   "label": "Sessions 4-6",
+   "phase": "Phase 1: Learn the lifts",
+   "tag": "",
+   "sessions": [
+    {
+     "n": 4,
+     "lift": "Deadlift",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog, 1:00 jump rope, and 1:00 of mountain climbers. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Bodyweight Good Mornings",
+        "10 Glute Bridges",
+        "10 Air Squats",
+        "10 Pogo Hops (small, quick jumps off the balls of your feet)"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Deadlift + Squat Jumps + Seated Dumbbell Strict Press",
+       "lines": [
+        "Build-up:",
+        "5 Deadlifts, light",
+        "3 Deadlifts, moderate",
+        "",
+        "Then 4 Sets:",
+        "8 Deadlifts",
+        "3 Squat Jumps, right after your last deadlift rep",
+        "10 Seated Dumbbell Strict Presses"
+       ],
+       "rotation": [
+        "One person works through a full set while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Start with the bar over the middle of your feet and your grip just outside your knees. Brace, push the floor away, and lower the bar with control every rep. On the squat jumps, jump for height, land softly, and reset between reps.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "deadlift",
+        "load_kind": "bar",
+        "pct_lines": [],
+        "test": null
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "On the 2:00 x 18:00 (3 rounds of 3 stations):",
+        "Each station: as many rounds as possible in 2:00",
+        "Station 1: 10 Glute Bridges + 10 Sit-ups/Crunches/V-ups",
+        "Station 2: 6 Dumbbell Curl to Press + 10 Single-Arm Dumbbell Bent-Over Rows",
+        "Station 3: Treadmill Run"
+       ],
+       "rotation": [
+        "One person starts on Station 1, the other on Station 2."
+       ],
+       "notes": "Glute Bridges: Elevate your feet onto the bench. Drive through your heels to lift your hips to full extension, squeezing your glutes at the top, pausing for a quick second, then return hips to the ground. Bent-Over Rows: Support one hand on the box and row with the other arm, switching arms every 5 reps. Choose dumbbells you can curl and press for 8+ reps.",
+       "clock_min": 18,
+       "score_label": "Total rounds"
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "lift": "Dumbbell Bench Press",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog and 2:00 jump rope. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Band Pull-Aparts",
+        "8 Push-ups (knees or hands elevated as needed)",
+        "5 Inchworms",
+        "10 Band Pass-Throughs"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Dumbbell Bench Press + TRX Row",
+       "lines": [
+        "Build-up:",
+        "10 Dumbbell Bench Press, light",
+        "5 Dumbbell Bench Press, moderate",
+        "",
+        "Then 4 Sets:",
+        "8 Dumbbell Bench Press",
+        "10-12 TRX Rows"
+       ],
+       "rotation": [
+        "One person works through both bench and rows while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Start with the weight you finished on last time. If all 8 reps move well, go up in weight next set.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "bench",
+        "load_kind": "db",
+        "pct_lines": [],
+        "test": null
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "Complete as many rounds and reps as possible in 24:00 of:",
+        "50 Jump Rope Singles",
+        "10 Dumbbell Push Press",
+        "20 Mountain Climbers"
+       ],
+       "rotation": [
+        "You go, I go: one of you completes a full round while the other rests, then switch."
+       ],
+       "notes": "Choose dumbbells you can push press for 10+ reps unbroken when fresh. Mountain Climbers: Count each knee drive as one rep.",
+       "clock_min": 24,
+       "score_label": "Rounds + reps, together",
+       "score_shared": true
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "lift": "Back Squat",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog, 1:00 jump rope, and 1:00 of mountain climbers. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Air Squats (3 seconds down)",
+        "10 Glute Bridges",
+        "5 Inchworms",
+        "0:20 Bottom-of-Squat Hold"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Back Squat + Pull-ups",
+       "lines": [
+        "Build-up:",
+        "10 Back Squats, empty bar",
+        "5 Back Squats, light",
+        "3 Back Squats, moderate",
+        "",
+        "Then 4 Sets:",
+        "8 Back Squats",
+        "3-6 Pull-ups: strict, band-assisted, or jump to the top and lower slowly"
+       ],
+       "rotation": [
+        "One person works through both squats and pull-ups while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Start with the weight you finished on last time. If all 8 reps move well, go up in weight next set. If you can't do any pull-ups, do TRX Rows.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "squat",
+        "load_kind": "bar",
+        "pct_lines": [],
+        "test": null
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "2 x 10:00 (20:00 total). Switch stations at 10:00.",
+        "Station 1: 10:00 Incline Treadmill Walk",
+        "Station 2: On the Minute x 10:00:",
+        "Odd minutes: 3 Walkouts to Down Dog + 10 Band Pull-Aparts",
+        "Even minutes: 10 Dead Bugs"
+       ],
+       "rotation": [
+        "One of you starts on the treadmill, the other on Station 2."
+       ],
+       "notes": "Walk as fast as you can without running, with the incline set between 8% and 15%. Dead Bugs: Keep your low back pressed into the ground as you lower the opposite arm and leg.",
+       "clock_min": 20,
+       "score_label": "Walking speed and incline"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "group": 3,
+   "label": "Sessions 7-9",
+   "phase": "Phase 1: Learn the lifts",
+   "tag": "Test sessions",
+   "sessions": [
+    {
+     "n": 7,
+     "lift": "Deadlift",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog and 2:00 jump rope. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Bodyweight Good Mornings",
+        "10 Glute Bridges",
+        "10 Air Squats",
+        "10 Pogo Hops (small, quick jumps off the balls of your feet)"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Deadlift + Squat Jumps + Seated Dumbbell Strict Press",
+       "lines": [
+        "Build-up:",
+        "5 Deadlifts, light",
+        "3 Deadlifts, moderate",
+        "",
+        "Then 3 Sets:",
+        "Sets 1-2: 8 Deadlifts",
+        "Set 3: Add weight, then Max Reps to Technical Failure",
+        "",
+        "With every set:",
+        "3 Squat Jumps, right after your last deadlift rep",
+        "10 Seated Dumbbell Strict Presses"
+       ],
+       "rotation": [
+        "One person works through a full set while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Set 3 should be a weight you think you can lift 5 to 8 times. Enter its weight and reps on the Working Weights tab; it sets your deadlift weights for Session 29.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "deadlift",
+        "load_kind": "bar",
+        "pct_lines": [],
+        "test": {
+         "set_label": "Set 3"
+        }
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "On the Minute x 18:00 (6 rounds of 3 stations):",
+        "Each minute: 0:40 of work + 0:20 of rest",
+        "Station 1: 0:40 of No-Push-up Burpees or Treadmill Jog",
+        "Station 2: 0:40 of Russian Kettlebell Swings (35/25)",
+        "Station 3: 0:40 of Kettlebell Gorilla Rows (35/25)"
+       ],
+       "notes": "Russian Kettlebell Swings: Swing the kettlebell to chest height with a snap of your hips. Gorilla Row: Set the kettlebell on the floor between your feet, hinge over, and row it to your ribs, switching arms every rep.",
+       "clock_min": 18,
+       "score_label": "Total reps"
+      }
+     ]
+    },
+    {
+     "n": 8,
+     "lift": "Dumbbell Bench Press",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog, 1:00 jump rope, and 1:00 of air squats. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Band Pull-Aparts",
+        "8 Push-ups (knees or hands elevated as needed)",
+        "5 Inchworms",
+        "10 Band Pass-Throughs"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Dumbbell Bench Press + TRX Row",
+       "lines": [
+        "Build-up:",
+        "10 Dumbbell Bench Press, light",
+        "5 Dumbbell Bench Press, moderate",
+        "",
+        "Then 3 Sets:",
+        "Sets 1-2: 8 Dumbbell Bench Press",
+        "Set 3: Add weight, then Max Reps to Technical Failure",
+        "",
+        "With every set:",
+        "10-12 TRX Rows"
+       ],
+       "rotation": [
+        "One person works through both bench and rows while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Set 3 should be a weight you think you can lift 5 to 8 times. Enter its weight and reps on the Working Weights tab; it sets your weights for Sessions 13 to 21.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "bench",
+        "load_kind": "db",
+        "pct_lines": [],
+        "test": {
+         "set_label": "Set 3"
+        }
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "6 Giant Sets:",
+        "10 Bicep Curls",
+        "10 Lateral Raises",
+        "12 Banded Lat Pulldowns",
+        "12 Alternating Single-Leg V-ups"
+       ],
+       "rotation": [
+        "One person works through a full giant set while the other rests, then switch."
+       ],
+       "notes": "Choose dumbbells you can curl for 12+ reps, then dial them down for the lateral raises. Banded Lat Pulldowns: Loop a band over the top of the pull-up station, kneel facing it, and pull your elbows down to your sides. Alternating Single-Leg V-ups: Lie on your back, then lift one straight leg and your chest together and reach for that foot, alternating legs.",
+       "clock_min": 28,
+       "score_label": "Curl and raise weights (lb)"
+      }
+     ]
+    },
+    {
+     "n": 9,
+     "lift": "Back Squat",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog and 2:00 jump rope. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Air Squats (3 seconds down)",
+        "10 Glute Bridges",
+        "5 Inchworms",
+        "0:20 Bottom-of-Squat Hold"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Back Squat + Pull-ups",
+       "lines": [
+        "Build-up:",
+        "10 Back Squats, empty bar",
+        "5 Back Squats, light",
+        "3 Back Squats, moderate",
+        "",
+        "Then 3 Sets:",
+        "Sets 1-2: 8 Back Squats",
+        "Set 3: Add weight, then Max Reps to Technical Failure",
+        "",
+        "With every set:",
+        "3-6 Pull-ups: strict, band-assisted, or jump to the top and lower slowly"
+       ],
+       "rotation": [
+        "One person works through both squat and pull-ups while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Set 3 should be a weight you think you can lift 5 to 8 times. Enter its weight and reps on the Working Weights tab; it sets your weights for Sessions 13 to 21. If you can't do any pull-ups, do TRX Rows.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "squat",
+        "load_kind": "bar",
+        "pct_lines": [],
+        "test": {
+         "set_label": "Set 3"
+        }
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "20:00 clock. Switch stations every 4:00.",
+        "Station 1: 4:00 Incline Treadmill Walk",
+        "Station 2: 0:30 Front Plank Hold + 5 Side Plank Hip Lifts per side + 15 Band Pull-Aparts, repeated at an easy pace for 4:00"
+       ],
+       "rotation": [
+        "One of you starts on the treadmill, the other on Station 2."
+       ],
+       "notes": "Walk as fast as you can without running, with the incline set between 8% and 15%. Side Plank Hip Lifts: From a side plank on your forearm, lower your hip toward the floor and lift it back up.",
+       "clock_min": 20,
+       "score_label": "Walking speed and incline"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "group": 4,
+   "label": "Sessions 10-12",
+   "phase": "Phase 1: Learn the lifts",
+   "tag": "Lighter sessions",
+   "sessions": [
+    {
+     "n": 10,
+     "lift": "Push Press",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog, 1:00 jump rope, and 1:00 of mountain climbers. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Band Pull-Aparts",
+        "10 Plank Shoulder Taps",
+        "5 Inchworms",
+        "10 Band Pass-Throughs"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Push Press + TRX Row",
+       "lines": [
+        "Build-up:",
+        "5 Push Press, empty bar",
+        "5 Push Press, light",
+        "",
+        "Then 3 Sets:",
+        "8 Push Press",
+        "10-12 TRX Rows"
+       ],
+       "rotation": [
+        "One person works through both push press and rows while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Take the bar from the rack at shoulder height. Dip a few inches by bending your knees, then drive the bar overhead with your legs and finish with your arms. Choose a weight you could do about 12 times. Every set should feel easy to moderate.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "push_press",
+        "load_kind": "bar",
+        "pct_lines": [],
+        "test": null
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "On the 2:00 x 16:00 (2 rounds of 4 stations):",
+        "Each station: as many rounds as possible in 2:00",
+        "Station 1: Treadmill Run",
+        "Station 2: 10 Kettlebell Goblet Squats (35/25) + 10 Glute Bridges",
+        "Station 3: 12 Banded Lat Pulldowns + 20 Flutter Kicks",
+        "Station 4: 20-Step Kettlebell Suitcase Carry (35/25) + 10 Plank Shoulder Taps"
+       ],
+       "rotation": [
+        "One person starts on Station 1, the other on Station 3."
+       ],
+       "notes": "Banded Lat Pulldowns: Loop a band over the top of the pull-up station, kneel facing it, and pull your elbows down to your sides. Suitcase Carry: Hold the kettlebell at your side and walk tall without leaning, switching hands at 10 steps. If you don't have space to walk, march in place.",
+       "clock_min": 16,
+       "score_label": "Total rounds"
+      }
+     ]
+    },
+    {
+     "n": 11,
+     "lift": "Romanian Deadlift",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog and 2:00 jump rope. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Bodyweight Good Mornings",
+        "10 Glute Bridges",
+        "10 Air Squats",
+        "10 Pogo Hops (small, quick jumps off the balls of your feet)"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Romanian Deadlift + Squat Jumps + Seated Dumbbell Strict Press",
+       "lines": [
+        "Build-up:",
+        "5 Romanian Deadlifts, empty bar",
+        "5 Romanian Deadlifts, light",
+        "",
+        "Then 3 Sets:",
+        "8 Romanian Deadlifts",
+        "3 Squat Jumps, right after your last deadlift rep",
+        "10 Seated Dumbbell Strict Presses"
+       ],
+       "rotation": [
+        "One person works through a full set while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Choose a weight you could do about 12 times. Every set should feel easy to moderate.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "rdl",
+        "load_kind": "bar",
+        "pct_lines": [],
+        "test": null
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "Complete as many rounds and reps as possible in 24:00 of:",
+        "200 Meter Treadmill Run",
+        "10 Upright Rows",
+        "20 Bicycles"
+       ],
+       "rotation": [
+        "You go, I go: one of you completes a full round while the other rests, then switch."
+       ],
+       "notes": "Upright Rows: Hold the dumbbells in front of your thighs and pull them to chest height, leading with your elbows. Bicycles: Count each elbow-to-opposite-knee touch as one rep.",
+       "clock_min": 24,
+       "score_label": "Rounds + reps, together",
+       "score_shared": true
+      }
+     ]
+    },
+    {
+     "n": 12,
+     "lift": "Front Squat",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog, 1:00 jump rope, and 1:00 of air squats. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Air Squats (3 seconds down)",
+        "10 Glute Bridges",
+        "5 Inchworms",
+        "0:20 Bottom-of-Squat Hold"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Front Squat + Pull-ups",
+       "lines": [
+        "Build-up:",
+        "5 Front Squats, empty bar",
+        "5 Front Squats, light",
+        "",
+        "Then 3 Sets:",
+        "8 Front Squats",
+        "3-6 Pull-ups: strict, band-assisted, or jump to the top and lower slowly"
+       ],
+       "rotation": [
+        "One person works through both front squats and pull-ups while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Rest the bar on the front of your shoulders with your elbows high; a crossed-arm grip is fine. If holding a bar in the front rack is difficult, switch to back squat. Choose a weight you could do about 12 times. Every set should feel easy to moderate. If you can't do any pull-ups, do TRX Rows.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "front_squat",
+        "load_kind": "bar",
+        "pct_lines": [],
+        "test": null
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "20:00 total. Switch when the walker finishes.",
+        "Station 1: 400 Meter Incline Treadmill Walk",
+        "Station 2: 3 Walkouts to Down Dog + 10 Glute Bridges + 0:20 Wall Sit, repeated at an easy pace until your partner finishes the walk"
+       ],
+       "rotation": [
+        "One of you starts on the treadmill, the other on Station 2."
+       ],
+       "notes": "Walk as fast as you can without running, with the incline set between 8% and 15%. Wall Sit: Back flat against the wall, thighs parallel to the floor.",
+       "clock_min": 20,
+       "score_label": "Walking speed and incline"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "group": 5,
+   "label": "Sessions 13-15",
+   "phase": "Phase 2: Build",
+   "tag": "",
+   "sessions": [
+    {
+     "n": 13,
+     "lift": "Dumbbell Bench Press",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog and 2:00 jump rope. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Band Pull-Aparts",
+        "10 Scap Push-ups",
+        "5 Inchworms with a Push-up",
+        "10 Band Pass-Throughs"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Dumbbell Bench Press + TRX Row",
+       "lines": [
+        "Build-up:",
+        "10 Dumbbell Bench Press, light",
+        "5 Dumbbell Bench Press, moderate",
+        "",
+        "Then 5 Sets:",
+        "Set 1: 8 Dumbbell Bench Press at 65%",
+        "Set 2: 8 Dumbbell Bench Press at 70%",
+        "Set 3: Max Reps to Technical Failure at 75%",
+        "Sets 4-5: 8 Dumbbell Bench Press at 72%",
+        "",
+        "With every set:",
+        "10-12 TRX Rows"
+       ],
+       "rotation": [
+        "One person works through both bench and rows while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Percentages come from your Session 8 result on the Working Weights tab. Expect about 8 reps on Set 3.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "bench",
+        "load_kind": "db",
+        "pct_lines": [
+         {
+          "line": 5,
+          "pct": 0.65,
+          "max_reps": false
+         },
+         {
+          "line": 6,
+          "pct": 0.7,
+          "max_reps": false
+         },
+         {
+          "line": 7,
+          "pct": 0.75,
+          "max_reps": true
+         },
+         {
+          "line": 8,
+          "pct": 0.72,
+          "max_reps": false
+         }
+        ],
+        "test": null,
+        "estimate_from": 8
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "7 Rounds For Time (cap 18:00):",
+        "7 Front Squats",
+        "10 Kettlebell Gorilla Rows (35/25)",
+        "12 Alternating Single-Leg V-ups"
+       ],
+       "rotation": [
+        "You both work at the same time: one of you front squats the barbell, the other a pair of dumbbells."
+       ],
+       "notes": "Choose a front squat weight you can do 7 times unbroken every round. Take the barbell from the rack each round. Gorilla Row: Set the kettlebell on the floor between your feet, hinge over, and row it to your ribs, switching arms every rep.",
+       "clock_min": 18,
+       "score_label": "Time"
+      }
+     ]
+    },
+    {
+     "n": 14,
+     "lift": "Romanian Deadlift",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog, 1:00 jump rope, and 1:00 of mountain climbers. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Glute Bridges",
+        "10 Bodyweight Good Mornings",
+        "5 Inchworms",
+        "10 Pogo Hops (small, quick jumps off the balls of your feet)"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Romanian Deadlift + Squat Jumps + Seated Dumbbell Strict Press",
+       "lines": [
+        "Build-up:",
+        "5 Romanian Deadlifts, empty bar",
+        "5 Romanian Deadlifts, light",
+        "",
+        "Then 4 Sets:",
+        "8 Romanian Deadlifts",
+        "5 Squat Jumps, right after your last deadlift rep",
+        "8-10 Seated Dumbbell Strict Presses"
+       ],
+       "rotation": [
+        "One person works through a full set while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Choose a weight you could do about 10 or 11 times.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "rdl",
+        "load_kind": "bar",
+        "pct_lines": [],
+        "test": null
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "6 Giant Sets:",
+        "10 Zottman Curls",
+        "10 Front Raises",
+        "12 Banded Tricep Pushdowns",
+        "0:30 Front Plank Hold"
+       ],
+       "rotation": [
+        "Start 1:00 apart, so only one of you is on the dumbbells at a time. Rest 1:00 after each giant set."
+       ],
+       "notes": "Choose dumbbells you can curl for 12+ reps, then dial them down for the front raises. Zottman Curls: Curl with palms up, turn your palms down at the top, and lower slowly. Banded Tricep Pushdowns: Loop a band over the top of the pull-up station and press it down until your elbows lock, keeping your elbows at your sides.",
+       "clock_min": 20,
+       "score_label": "Curl and raise weights (lb)"
+      }
+     ]
+    },
+    {
+     "n": 15,
+     "lift": "Back Squat",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog and 2:00 jump rope. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "8 Kettlebell Goblet Squats, light",
+        "10 Glute Bridges",
+        "8 Alternating Reverse Lunges",
+        "0:20 Bottom-of-Squat Hold"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Back Squat + Pull-ups",
+       "lines": [
+        "Build-up:",
+        "10 Back Squats, empty bar",
+        "5 Back Squats, light",
+        "",
+        "Then 5 Sets:",
+        "Set 1: 8 Back Squats at 65%",
+        "Set 2: 8 Back Squats at 70%",
+        "Set 3: Max Reps to Technical Failure at 75%",
+        "Sets 4-5: 8 Back Squats at 72%",
+        "",
+        "With every set:",
+        "3-6 Pull-ups: strict, band-assisted, or jump to the top and lower slowly"
+       ],
+       "rotation": [
+        "One person works through both squat and pull-ups while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Percentages come from your Session 9 result on the Working Weights tab. Expect about 8 reps on Set 3. If you can't do any pull-ups, do TRX Rows.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "squat",
+        "load_kind": "bar",
+        "pct_lines": [
+         {
+          "line": 5,
+          "pct": 0.65,
+          "max_reps": false
+         },
+         {
+          "line": 6,
+          "pct": 0.7,
+          "max_reps": false
+         },
+         {
+          "line": 7,
+          "pct": 0.75,
+          "max_reps": true
+         },
+         {
+          "line": 8,
+          "pct": 0.72,
+          "max_reps": false
+         }
+        ],
+        "test": null,
+        "estimate_from": 9
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "24:00 clock. Switch stations every 2:00.",
+        "",
+        "0:00-8:00, two rounds each:",
+        "Station 1: 2:00 Treadmill Run",
+        "Station 2: 8 Burpees + 8 Banded Pull-ups; rest the remaining time",
+        "",
+        "8:00-10:00: Rest",
+        "",
+        "10:00-18:00, two rounds each:",
+        "Station 1: 2:00 Treadmill Run",
+        "Station 2: 12 Kettlebell Goblet Squats (35/25); rest the remaining time",
+        "",
+        "18:00-20:00: Rest",
+        "",
+        "20:00-24:00, one round each:",
+        "Station 1: 2:00 Treadmill Run",
+        "Station 2: Max rounds of 4 Burpees + 4 Banded Pull-ups + 8 Kettlebell Goblet Squats"
+       ],
+       "rotation": [
+        "One of you starts on the treadmill, the other on Station 2."
+       ],
+       "notes": "If you need to walk, raise the treadmill incline to compensate for slowing down.",
+       "clock_min": 24,
+       "score_label": "Rounds + reps, 20:00-24:00"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "group": 6,
+   "label": "Sessions 16-18",
+   "phase": "Phase 2: Build",
+   "tag": "",
+   "sessions": [
+    {
+     "n": 16,
+     "lift": "Romanian Deadlift",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog, 1:00 jump rope, and 1:00 of air squats. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Glute Bridges",
+        "10 Bodyweight Good Mornings",
+        "5 Inchworms",
+        "10 Pogo Hops (small, quick jumps off the balls of your feet)"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Romanian Deadlift + Squat Jumps + Seated Dumbbell Strict Press",
+       "lines": [
+        "Build-up:",
+        "5 Romanian Deadlifts, empty bar",
+        "5 Romanian Deadlifts, light",
+        "",
+        "Then 4 Sets:",
+        "8 Romanian Deadlifts",
+        "5 Squat Jumps, right after your last deadlift rep",
+        "8-10 Seated Dumbbell Strict Presses"
+       ],
+       "rotation": [
+        "One person works through a full set while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Choose a weight you could do about 10 or 11 times.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "rdl",
+        "load_kind": "bar",
+        "pct_lines": [],
+        "test": null
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "Complete as many rounds and reps as possible in 24:00 of:",
+        "200 Meter Treadmill Run",
+        "12 Banded Lat Pulldowns",
+        "10 Floor Wipers"
+       ],
+       "rotation": [
+        "You go, I go: one of you completes a full round while the other rests, then switch."
+       ],
+       "notes": "Floor Wipers: Lie on your back with your arms out wide and legs straight up, lower your legs to one side and back up, then to the other. Count each side as one rep.",
+       "clock_min": 24,
+       "score_label": "Rounds + reps, together",
+       "score_shared": true
+      }
+     ]
+    },
+    {
+     "n": 17,
+     "lift": "Back Squat",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog and 2:00 jump rope. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "8 Kettlebell Goblet Squats, light",
+        "10 Glute Bridges",
+        "8 Alternating Reverse Lunges",
+        "0:20 Bottom-of-Squat Hold"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Back Squat + Pull-ups",
+       "lines": [
+        "Build-up:",
+        "10 Back Squats, empty bar",
+        "5 Back Squats, light",
+        "",
+        "Then 5 Sets:",
+        "Set 1: 8 Back Squats at 67%",
+        "Set 2: 6 Back Squats at 72%",
+        "Set 3: Max Reps to Technical Failure at 78%",
+        "Sets 4-5: 8 Back Squats at 72%",
+        "",
+        "With every set:",
+        "3-6 Pull-ups: strict, band-assisted, or jump to the top and lower slowly"
+       ],
+       "rotation": [
+        "One person works through both squat and pull-ups while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Percentages come from your Session 9 result on the Working Weights tab. Expect about 6 reps on Set 3. If you can't do any pull-ups, do TRX Rows.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "squat",
+        "load_kind": "bar",
+        "pct_lines": [
+         {
+          "line": 5,
+          "pct": 0.67,
+          "max_reps": false
+         },
+         {
+          "line": 6,
+          "pct": 0.72,
+          "max_reps": false
+         },
+         {
+          "line": 7,
+          "pct": 0.78,
+          "max_reps": true
+         },
+         {
+          "line": 8,
+          "pct": 0.72,
+          "max_reps": false
+         }
+        ],
+        "test": null,
+        "estimate_from": 9
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "On the Minute x 20:00 (5 rounds of 4 stations):",
+        "Each minute: 0:40 of work + 0:20 of rest",
+        "Station 1: 0:40 of Treadmill Run",
+        "Station 2: 0:40 of Arnold Press",
+        "Station 3: 0:40 of Plank Kettlebell Pull-Throughs",
+        "Station 4: 0:40 of Jump Rope"
+       ],
+       "notes": "One person starts on Station 1, the other on Station 3. Choose dumbbells you can Arnold press for 8+ reps per round. Arnold Press: Start with your palms facing you at your shoulders, then turn them forward as you press overhead. Plank Pull-Throughs: From a high plank, reach under your body and drag the kettlebell to the other side, alternating hands.",
+       "clock_min": 20,
+       "score_label": "Total reps"
+      }
+     ]
+    },
+    {
+     "n": 18,
+     "lift": "Dumbbell Bench Press",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog, 1:00 jump rope, and 1:00 of mountain climbers. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Band Pull-Aparts",
+        "10 Scap Push-ups",
+        "5 Inchworms with a Push-up",
+        "10 Band Pass-Throughs"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Dumbbell Bench Press + TRX Row",
+       "lines": [
+        "Build-up:",
+        "10 Dumbbell Bench Press, light",
+        "5 Dumbbell Bench Press, moderate",
+        "",
+        "Then 5 Sets:",
+        "Set 1: 8 Dumbbell Bench Press at 67%",
+        "Set 2: 6 Dumbbell Bench Press at 72%",
+        "Set 3: Max Reps to Technical Failure at 78%",
+        "Sets 4-5: 8 Dumbbell Bench Press at 72%",
+        "",
+        "With every set:",
+        "10-12 TRX Rows"
+       ],
+       "rotation": [
+        "One person works through both bench and rows while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Percentages come from your Session 8 result on the Working Weights tab. Expect about 6 reps on Set 3.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "bench",
+        "load_kind": "db",
+        "pct_lines": [
+         {
+          "line": 5,
+          "pct": 0.67,
+          "max_reps": false
+         },
+         {
+          "line": 6,
+          "pct": 0.72,
+          "max_reps": false
+         },
+         {
+          "line": 7,
+          "pct": 0.78,
+          "max_reps": true
+         },
+         {
+          "line": 8,
+          "pct": 0.72,
+          "max_reps": false
+         }
+        ],
+        "test": null,
+        "estimate_from": 8
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "For Time (cap 20:00):",
+        "800 Meter Treadmill Run",
+        "40 Alternating Reverse Lunges",
+        "30 Russian Kettlebell Swings (35/25)",
+        "20 Burpees",
+        "30 Band Pull-Aparts",
+        "40 Bicycles"
+       ],
+       "rotation": [
+        "One of you starts at the top of the list. The other starts at the bottom and finishes with the run."
+       ],
+       "notes": "Russian Kettlebell Swings: Swing the kettlebell to chest height with a snap of your hips.",
+       "clock_min": 20,
+       "score_label": "Time"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "group": 7,
+   "label": "Sessions 19-21",
+   "phase": "Phase 2: Build",
+   "tag": "",
+   "sessions": [
+    {
+     "n": 19,
+     "lift": "Back Squat",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog and 2:00 jump rope. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "8 Kettlebell Goblet Squats, light",
+        "10 Glute Bridges",
+        "8 Alternating Reverse Lunges",
+        "0:20 Bottom-of-Squat Hold"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Back Squat + Pull-ups",
+       "lines": [
+        "Build-up:",
+        "10 Back Squats, empty bar",
+        "5 Back Squats, light",
+        "",
+        "Then 5 Sets:",
+        "Set 1: 6 Back Squats at 70%",
+        "Set 2: 5 Back Squats at 75%",
+        "Set 3: Max Reps to Technical Failure at 80%",
+        "Sets 4-5: 6 Back Squats at 75%",
+        "",
+        "With every set:",
+        "3-6 Pull-ups: strict, band-assisted, or jump to the top and lower slowly"
+       ],
+       "rotation": [
+        "One person works through both squat and pull-ups while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Percentages come from your Session 9 result on the Working Weights tab. Expect about 6 reps on Set 3. Enter Set 3's weight and reps on the Working Weights tab; it sets your weights for the rest of the plan. If you can't do any pull-ups, do TRX Rows.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "squat",
+        "load_kind": "bar",
+        "pct_lines": [
+         {
+          "line": 5,
+          "pct": 0.7,
+          "max_reps": false
+         },
+         {
+          "line": 6,
+          "pct": 0.75,
+          "max_reps": false
+         },
+         {
+          "line": 7,
+          "pct": 0.8,
+          "max_reps": true
+         },
+         {
+          "line": 8,
+          "pct": 0.75,
+          "max_reps": false
+         }
+        ],
+        "test": {
+         "set_label": "Set 3"
+        },
+        "estimate_from": 9
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "On the 2:00 x 16:00 (2 rounds of 4 stations):",
+        "Each station: as many rounds as possible in 2:00",
+        "Station 1: Treadmill Run",
+        "Station 2: 6 Z-Presses + 10 Russian Twists",
+        "Station 3: 10 TRX Rows + 10 Dead Bugs",
+        "Station 4: 30 Jump Rope Singles + 20 Bicycles"
+       ],
+       "rotation": [
+        "One person starts on Station 1, the other on Station 3."
+       ],
+       "notes": "Z-Press: Sit on the floor with your legs straight in front of you and press the dumbbells overhead without leaning back. Russian Twists: Sit tall, lean back slightly, and rotate one dumbbell from hip to hip.",
+       "clock_min": 16,
+       "score_label": "Total rounds"
+      }
+     ]
+    },
+    {
+     "n": 20,
+     "lift": "Dumbbell Bench Press",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog, 1:00 jump rope, and 1:00 of air squats. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Band Pull-Aparts",
+        "10 Scap Push-ups",
+        "5 Inchworms with a Push-up",
+        "10 Band Pass-Throughs"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Dumbbell Bench Press + TRX Row",
+       "lines": [
+        "Build-up:",
+        "10 Dumbbell Bench Press, light",
+        "5 Dumbbell Bench Press, moderate",
+        "",
+        "Then 5 Sets:",
+        "Set 1: 6 Dumbbell Bench Press at 70%",
+        "Set 2: 5 Dumbbell Bench Press at 75%",
+        "Set 3: Max Reps to Technical Failure at 80%",
+        "Sets 4-5: 6 Dumbbell Bench Press at 75%",
+        "",
+        "With every set:",
+        "10-12 TRX Rows"
+       ],
+       "rotation": [
+        "One person works through both bench and rows while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Percentages come from your Session 8 result on the Working Weights tab. Expect about 6 reps on Set 3. Enter Set 3's weight and reps on the Working Weights tab; it sets your weights for the rest of the plan.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "bench",
+        "load_kind": "db",
+        "pct_lines": [
+         {
+          "line": 5,
+          "pct": 0.7,
+          "max_reps": false
+         },
+         {
+          "line": 6,
+          "pct": 0.75,
+          "max_reps": false
+         },
+         {
+          "line": 7,
+          "pct": 0.8,
+          "max_reps": true
+         },
+         {
+          "line": 8,
+          "pct": 0.75,
+          "max_reps": false
+         }
+        ],
+        "test": {
+         "set_label": "Set 3"
+        },
+        "estimate_from": 8
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "14-12-10-8-6-4 Reps For Time (cap 20:00):",
+        "Russian Kettlebell Swings (35/25)",
+        "Kettlebell Gorilla Rows (35/25)",
+        "Burpees"
+       ],
+       "rotation": [
+        "You both work at the same time, each with your own kettlebell."
+       ],
+       "notes": "Russian Kettlebell Swings: Swing the kettlebell to chest height with a snap of your hips. Gorilla Rows: Count each arm as one rep.",
+       "clock_min": 20,
+       "score_label": "Time"
+      }
+     ]
+    },
+    {
+     "n": 21,
+     "lift": "Romanian Deadlift",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog and 2:00 jump rope. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Glute Bridges",
+        "10 Bodyweight Good Mornings",
+        "5 Inchworms",
+        "10 Pogo Hops (small, quick jumps off the balls of your feet)"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Romanian Deadlift + Squat Jumps + Seated Dumbbell Strict Press",
+       "lines": [
+        "Build-up:",
+        "5 Romanian Deadlifts, empty bar",
+        "5 Romanian Deadlifts, light",
+        "",
+        "Then 4 Sets:",
+        "8 Romanian Deadlifts",
+        "5 Squat Jumps, right after your last deadlift rep",
+        "8-10 Seated Dumbbell Strict Presses"
+       ],
+       "rotation": [
+        "One person works through a full set while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Choose a weight you could do about 10 or 11 times.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "rdl",
+        "load_kind": "bar",
+        "pct_lines": [],
+        "test": null
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "4 x 5:00 (23:00 total):",
+        "Each set: 1:00 of cardio, then as many rounds and reps as possible in the remaining time of:",
+        "10 Kettlebell Goblet Squats (35/25)",
+        "10 Band Pull-Aparts",
+        "10 Alternating Single-Leg V-ups"
+       ],
+       "rotation": [
+        "Cardio: one of you runs on the treadmill while the other jumps rope; switch every set.",
+        "Rest 1:00 between sets, and pick up where you left off."
+       ],
+       "clock_min": 23,
+       "score_label": "Rounds + reps, all 4 sets"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "group": 8,
+   "label": "Sessions 22-24",
+   "phase": "Phase 2: Build",
+   "tag": "Lighter sessions",
+   "sessions": [
+    {
+     "n": 22,
+     "lift": "Push Press",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog, 1:00 jump rope, and 1:00 of mountain climbers. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Band Pull-Aparts",
+        "10 Plank Shoulder Taps",
+        "5 Inchworms",
+        "10 Band Pass-Throughs"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Push Press + TRX Row",
+       "lines": [
+        "Build-up:",
+        "5 Push Press, empty bar",
+        "5 Push Press, light",
+        "",
+        "Then 3 Sets:",
+        "8 Push Press",
+        "10-12 TRX Rows"
+       ],
+       "rotation": [
+        "One person works through both push press and rows while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Choose a weight you could do about 12 times. Every set should feel easy to moderate.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "push_press",
+        "load_kind": "bar",
+        "pct_lines": [],
+        "test": null
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "Complete as many rounds and reps as possible in 24:00 of:",
+        "200 Meter Treadmill Run",
+        "10 Spanish Squats",
+        "20 Flutter Kicks"
+       ],
+       "rotation": [
+        "You go, I go: one of you completes a full round while the other rests, then switch."
+       ],
+       "notes": "Spanish Squats: Loop a heavy band around a rack post and behind your knees, step back until it's tight, and squat with your shins vertical. Flutter Kicks: Keep your low back pressed into the ground; count each kick as one rep.",
+       "clock_min": 24,
+       "score_label": "Rounds + reps, together",
+       "score_shared": true
+      }
+     ]
+    },
+    {
+     "n": 23,
+     "lift": "Front Squat",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog and 2:00 jump rope. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "8 Kettlebell Goblet Squats, light",
+        "10 Glute Bridges",
+        "8 Alternating Reverse Lunges",
+        "0:20 Bottom-of-Squat Hold"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Front Squat + Pull-ups",
+       "lines": [
+        "Build-up:",
+        "5 Front Squats, empty bar",
+        "5 Front Squats, light",
+        "",
+        "Then 3 Sets:",
+        "8 Front Squats",
+        "3-6 Pull-ups: strict, band-assisted, or jump to the top and lower slowly"
+       ],
+       "rotation": [
+        "One person works through both front squats and pull-ups while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Choose a weight you could do about 12 times. Every set should feel easy to moderate. If you can't do any pull-ups, do TRX Rows.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "front_squat",
+        "load_kind": "bar",
+        "pct_lines": [],
+        "test": null
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "On the Minute x 18:00 (6 rounds of 3 stations):",
+        "Each minute: 0:40 of work + 0:20 of rest",
+        "Station 1: 0:40 of Treadmill Run",
+        "Station 2: 0:40 of Sit-ups/Crunches/V-ups",
+        "Station 3: 0:40 of Alternating Reverse Lunges"
+       ],
+       "clock_min": 18,
+       "score_label": "Total reps"
+      }
+     ]
+    },
+    {
+     "n": 24,
+     "lift": "Romanian Deadlift",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog, 1:00 jump rope, and 1:00 of air squats. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Glute Bridges",
+        "10 Bodyweight Good Mornings",
+        "5 Inchworms",
+        "10 Pogo Hops (small, quick jumps off the balls of your feet)"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Romanian Deadlift + Squat Jumps + Seated Dumbbell Strict Press",
+       "lines": [
+        "Build-up:",
+        "5 Romanian Deadlifts, empty bar",
+        "5 Romanian Deadlifts, light",
+        "",
+        "Then 3 Sets:",
+        "8 Romanian Deadlifts",
+        "5 Squat Jumps, right after your last deadlift rep",
+        "8-10 Seated Dumbbell Strict Presses"
+       ],
+       "rotation": [
+        "One person works through a full set while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Choose a weight you could do about 12 times. Every set should feel easy to moderate.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "rdl",
+        "load_kind": "bar",
+        "pct_lines": [],
+        "test": null
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "20:00 clock. Switch stations every 2:00.",
+        "Station 1: 2:00 Incline Treadmill Walk",
+        "Station 2: 3 Walkouts to Down Dog + 10 Glute Bridges + 0:20 Reverse Plank, repeated at an easy pace for 2:00"
+       ],
+       "rotation": [
+        "One of you starts on the treadmill, the other on Station 2."
+       ],
+       "notes": "Walk as fast as you can without running, with the incline set between 8% and 15%. Reverse Plank: Sit with your legs straight, hands behind your hips, and lift your hips until your body is a straight line.",
+       "clock_min": 20,
+       "score_label": "Walking speed and incline"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "group": 9,
+   "label": "Sessions 25-27",
+   "phase": "Phase 3: Peak and retest",
+   "tag": "",
+   "sessions": [
+    {
+     "n": 25,
+     "lift": "Dumbbell Bench Press",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog and 2:00 jump rope. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Band Pull-Aparts",
+        "10 Scap Push-ups",
+        "5 Inchworms with a Push-up",
+        "10 Band Pass-Throughs"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Dumbbell Bench Press + TRX Row",
+       "lines": [
+        "Build-up:",
+        "10 Dumbbell Bench Press, light",
+        "5 Dumbbell Bench Press, moderate",
+        "",
+        "Then 5 Sets:",
+        "Set 1: 8 Dumbbell Bench Press at 67%",
+        "Set 2: 6 Dumbbell Bench Press at 72%",
+        "Set 3: Max Reps to Technical Failure at 78%",
+        "Sets 4-5: 8 Dumbbell Bench Press at 72%",
+        "",
+        "With every set:",
+        "8-10 TRX Rows"
+       ],
+       "rotation": [
+        "One person works through both bench and rows while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Percentages come from your Session 20 result on the Working Weights tab. Expect about 6 reps on Set 3.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "bench",
+        "load_kind": "db",
+        "pct_lines": [
+         {
+          "line": 5,
+          "pct": 0.67,
+          "max_reps": false
+         },
+         {
+          "line": 6,
+          "pct": 0.72,
+          "max_reps": false
+         },
+         {
+          "line": 7,
+          "pct": 0.78,
+          "max_reps": true
+         },
+         {
+          "line": 8,
+          "pct": 0.72,
+          "max_reps": false
+         }
+        ],
+        "test": null,
+        "estimate_from": 20
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "6 Giant Sets:",
+        "10 Dumbbell Bent-Over Rows",
+        "10 Upright Rows",
+        "12 Banded Lat Pulldowns",
+        "10 Plank Kettlebell Pull-Throughs"
+       ],
+       "rotation": [
+        "Start 1:00 apart, so only one of you is on the dumbbells at a time. Rest 1:00 after each giant set."
+       ],
+       "notes": "Choose dumbbells you can row for 12+ reps, then dial them down for the upright rows. Bent-Over Rows: Hinge until your chest is nearly parallel to the floor and pull both dumbbells to your ribs.",
+       "clock_min": 20,
+       "score_label": "Row weight (lb)"
+      }
+     ]
+    },
+    {
+     "n": 26,
+     "lift": "Back Squat",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog, 1:00 jump rope, and 1:00 of mountain climbers. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "8 Kettlebell Goblet Squats, light",
+        "10 Glute Bridges",
+        "8 Alternating Reverse Lunges",
+        "0:20 Bottom-of-Squat Hold"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Back Squat + Pull-ups",
+       "lines": [
+        "Build-up:",
+        "10 Back Squats, empty bar",
+        "5 Back Squats, light",
+        "",
+        "Then 5 Sets:",
+        "Set 1: 8 Back Squats at 67%",
+        "Set 2: 6 Back Squats at 72%",
+        "Set 3: Max Reps to Technical Failure at 78%",
+        "Sets 4-5: 8 Back Squats at 72%",
+        "",
+        "With every set:",
+        "4-8 Pull-ups: strict, band-assisted, or jump to the top and lower slowly"
+       ],
+       "rotation": [
+        "One person works through both squat and pull-ups while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Percentages come from your Session 19 result on the Working Weights tab. Expect about 6 reps on Set 3. If you can't do any pull-ups, do TRX Rows.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "squat",
+        "load_kind": "bar",
+        "pct_lines": [
+         {
+          "line": 5,
+          "pct": 0.67,
+          "max_reps": false
+         },
+         {
+          "line": 6,
+          "pct": 0.72,
+          "max_reps": false
+         },
+         {
+          "line": 7,
+          "pct": 0.78,
+          "max_reps": true
+         },
+         {
+          "line": 8,
+          "pct": 0.72,
+          "max_reps": false
+         }
+        ],
+        "test": null,
+        "estimate_from": 19
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "10 Rounds For Time (cap 18:00):",
+        "10-9-8-7-6-5-4-3-2-1 Bent-Over Rows",
+        "10-9-8-7-6-5-4-3-2-1 Dips",
+        "10 Alternating Single-Leg V-ups every round"
+       ],
+       "rotation": [
+        "You both work at the same time: one of you rows the barbell and dips on the dip station, the other rows the dumbbells and dips on the bench."
+       ],
+       "notes": "Choose a row weight you can do 10 times unbroken. Choose a dip variation (dip station, bench dips, band-assisted) that allows you to get 8+ reps when fresh.",
+       "clock_min": 18,
+       "score_label": "Time"
+      }
+     ]
+    },
+    {
+     "n": 27,
+     "lift": "Romanian Deadlift",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog and 2:00 jump rope. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Glute Bridges",
+        "10 Bodyweight Good Mornings",
+        "5 Inchworms",
+        "10 Pogo Hops (small, quick jumps off the balls of your feet)"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Romanian Deadlift + Squat Jumps + Seated Dumbbell Strict Press",
+       "lines": [
+        "Build-up:",
+        "5 Romanian Deadlifts, empty bar",
+        "5 Romanian Deadlifts, light",
+        "",
+        "Then 4 Sets:",
+        "6-8 Romanian Deadlifts",
+        "3-5 Squat Jumps (bodyweight or light dumbbells), right after your last deadlift rep",
+        "6-8 Seated Dumbbell Strict Presses"
+       ],
+       "rotation": [
+        "One person works through a full set while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Choose a weight you could do about 9 or 10 times.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "rdl",
+        "load_kind": "bar",
+        "pct_lines": [],
+        "test": null
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "22:00 clock. Switch stations every 2:00.",
+        "",
+        "0:00-12:00, three rounds each:",
+        "Station 1: 2:00 Treadmill Run",
+        "Station 2: 8 Box Jumps or Box Step-ups + 10 Alternating Dumbbell Reverse Lunges; rest the remaining time",
+        "",
+        "12:00-14:00: Rest",
+        "",
+        "14:00-22:00, two rounds each:",
+        "Station 1: 2:00 Treadmill Run",
+        "Station 2: 8 Box Jumps or Box Step-ups + 10 Alternating Dumbbell Reverse Lunges; rest the remaining time"
+       ],
+       "rotation": [
+        "One of you starts on the treadmill, the other on Station 2."
+       ],
+       "notes": "Hold the dumbbells at your sides for the lunges. We want the runs in the second block faster than the first.",
+       "clock_min": 22,
+       "score_label": "Treadmill speed you held"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "group": 10,
+   "label": "Sessions 28-30",
+   "phase": "Phase 3: Peak and retest",
+   "tag": "",
+   "sessions": [
+    {
+     "n": 28,
+     "lift": "Dumbbell Bench Press",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog, 1:00 jump rope, and 1:00 of air squats. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Band Pull-Aparts",
+        "10 Scap Push-ups",
+        "5 Inchworms with a Push-up",
+        "10 Band Pass-Throughs"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Dumbbell Bench Press + TRX Row",
+       "lines": [
+        "Build-up:",
+        "10 Dumbbell Bench Press, light",
+        "5 Dumbbell Bench Press, moderate",
+        "",
+        "Then 5 Sets:",
+        "Set 1: 6 Dumbbell Bench Press at 70%",
+        "Set 2: 5 Dumbbell Bench Press at 75%",
+        "Set 3: Max Reps to Technical Failure at 80%",
+        "Sets 4-5: 6 Dumbbell Bench Press at 75%",
+        "",
+        "With every set:",
+        "8-10 TRX Rows"
+       ],
+       "rotation": [
+        "One person works through both bench and rows while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Percentages come from your Session 20 result on the Working Weights tab. Expect about 6 reps on Set 3.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "bench",
+        "load_kind": "db",
+        "pct_lines": [
+         {
+          "line": 5,
+          "pct": 0.7,
+          "max_reps": false
+         },
+         {
+          "line": 6,
+          "pct": 0.75,
+          "max_reps": false
+         },
+         {
+          "line": 7,
+          "pct": 0.8,
+          "max_reps": true
+         },
+         {
+          "line": 8,
+          "pct": 0.75,
+          "max_reps": false
+         }
+        ],
+        "test": null,
+        "estimate_from": 20
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "Complete as many rounds and reps as possible in 24:00 of:",
+        "50 Jump Rope Singles",
+        "12 Kettlebell Goblet Squats (35/25)",
+        "12 Alternating Single-Leg V-ups"
+       ],
+       "rotation": [
+        "You go, I go: one of you completes a full round while the other rests, then switch."
+       ],
+       "clock_min": 24,
+       "score_label": "Rounds + reps, together",
+       "score_shared": true
+      }
+     ]
+    },
+    {
+     "n": 29,
+     "lift": "Deadlift",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog and 2:00 jump rope. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Glute Bridges",
+        "10 Bodyweight Good Mornings",
+        "5 Inchworms",
+        "10 Pogo Hops (small, quick jumps off the balls of your feet)"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Deadlift + Squat Jumps + Seated Dumbbell Strict Press",
+       "lines": [
+        "Build-up:",
+        "5 Deadlifts, light",
+        "3 Deadlifts, moderate",
+        "",
+        "Then 5 Sets:",
+        "Set 1: 6 Deadlifts at 70%",
+        "Set 2: 5 Deadlifts at 75%",
+        "Set 3: Max Reps to Technical Failure at 80%",
+        "Sets 4-5: 6 Deadlifts at 75%",
+        "",
+        "With every set:",
+        "3-5 Squat Jumps (bodyweight or light dumbbells), right after your last deadlift rep",
+        "6-8 Seated Dumbbell Strict Presses"
+       ],
+       "rotation": [
+        "One person works through a full set while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Percentages come from your Session 7 result on the Working Weights tab. Expect about 6 reps on Set 3. Enter Set 3's weight and reps on the Working Weights tab; it sets your weights for the rest of the plan. The bar tops out at 195 lbs. If a weight would be higher, use 195, and still go for max reps on Set 3.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "deadlift",
+        "load_kind": "bar",
+        "pct_lines": [
+         {
+          "line": 5,
+          "pct": 0.7,
+          "max_reps": false
+         },
+         {
+          "line": 6,
+          "pct": 0.75,
+          "max_reps": false
+         },
+         {
+          "line": 7,
+          "pct": 0.8,
+          "max_reps": true
+         },
+         {
+          "line": 8,
+          "pct": 0.75,
+          "max_reps": false
+         }
+        ],
+        "test": {
+         "set_label": "Set 3"
+        },
+        "estimate_from": 7
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "12 Rounds (6 each):",
+        "One of you runs 200 meters on the treadmill while the other does max reps:",
+        "Odd rounds: Bicep Curls",
+        "Even rounds: Banded Tricep Pushdowns"
+       ],
+       "rotation": [
+        "Switch when the runner finishes 200 meters."
+       ],
+       "notes": "Choose dumbbells you can curl for 12+ reps. Banded Tricep Pushdowns: Loop a band over the top of the pull-up station and press it down until your elbows lock, keeping your elbows at your sides.",
+       "clock_min": 15,
+       "score_label": "Total reps"
+      }
+     ]
+    },
+    {
+     "n": 30,
+     "lift": "Back Squat",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog, 1:00 jump rope, and 1:00 of mountain climbers. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "8 Kettlebell Goblet Squats, light",
+        "10 Glute Bridges",
+        "8 Alternating Reverse Lunges",
+        "0:20 Bottom-of-Squat Hold"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Back Squat + Pull-ups",
+       "lines": [
+        "Build-up:",
+        "10 Back Squats, empty bar",
+        "5 Back Squats, light",
+        "",
+        "Then 5 Sets:",
+        "Set 1: 6 Back Squats at 70%",
+        "Set 2: 5 Back Squats at 75%",
+        "Set 3: Max Reps to Technical Failure at 80%",
+        "Sets 4-5: 6 Back Squats at 75%",
+        "",
+        "With every set:",
+        "4-8 Pull-ups: strict, band-assisted, or jump to the top and lower slowly"
+       ],
+       "rotation": [
+        "One person works through both squat and pull-ups while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Percentages come from your Session 19 result on the Working Weights tab. Expect about 6 reps on Set 3. If you can't do any pull-ups, do TRX Rows.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "squat",
+        "load_kind": "bar",
+        "pct_lines": [
+         {
+          "line": 5,
+          "pct": 0.7,
+          "max_reps": false
+         },
+         {
+          "line": 6,
+          "pct": 0.75,
+          "max_reps": false
+         },
+         {
+          "line": 7,
+          "pct": 0.8,
+          "max_reps": true
+         },
+         {
+          "line": 8,
+          "pct": 0.75,
+          "max_reps": false
+         }
+        ],
+        "test": null,
+        "estimate_from": 19
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "For Time (cap 22:00):",
+        "800 Meter Treadmill Run",
+        "30 Kettlebell Gorilla Rows (35/25)",
+        "40 Flutter Kicks",
+        "20 Thrusters",
+        "30 Band Pull-Aparts",
+        "40 Mountain Climbers"
+       ],
+       "rotation": [
+        "One of you starts at the top of the list. The other starts at the bottom and finishes with the run.",
+        "Thrusters: one of you uses the barbell, the other a pair of dumbbells."
+       ],
+       "notes": "Choose a thruster weight you can do 10 times unbroken. Gorilla Rows and Mountain Climbers: Count each arm or knee drive as one rep.",
+       "clock_min": 22,
+       "score_label": "Time"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "group": 11,
+   "label": "Sessions 31-33",
+   "phase": "Phase 3: Peak and retest",
+   "tag": "",
+   "sessions": [
+    {
+     "n": 31,
+     "lift": "Deadlift",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog and 2:00 jump rope. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Glute Bridges",
+        "10 Bodyweight Good Mornings",
+        "5 Inchworms",
+        "10 Pogo Hops (small, quick jumps off the balls of your feet)"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Deadlift + Squat Jumps + Seated Dumbbell Strict Press",
+       "lines": [
+        "Build-up:",
+        "5 Deadlifts, light",
+        "3 Deadlifts, moderate",
+        "",
+        "Then 5 Sets:",
+        "Set 1: 5 Deadlifts at 73%",
+        "Set 2: 4 Deadlifts at 78%",
+        "Set 3: Max Reps to Technical Failure at 83%",
+        "Sets 4-5: 5 Deadlifts at 77%",
+        "",
+        "With every set:",
+        "3-5 Squat Jumps (bodyweight or light dumbbells), right after your last deadlift rep",
+        "6-8 Seated Dumbbell Strict Presses"
+       ],
+       "rotation": [
+        "One person works through a full set while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Percentages come from your Session 29 result on the Working Weights tab. Expect about 4 reps on Set 3. The bar tops out at 195 lbs. If a weight would be higher, use 195, and still go for max reps on Set 3.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "deadlift",
+        "load_kind": "bar",
+        "pct_lines": [
+         {
+          "line": 5,
+          "pct": 0.73,
+          "max_reps": false
+         },
+         {
+          "line": 6,
+          "pct": 0.78,
+          "max_reps": false
+         },
+         {
+          "line": 7,
+          "pct": 0.83,
+          "max_reps": true
+         },
+         {
+          "line": 8,
+          "pct": 0.77,
+          "max_reps": false
+         }
+        ],
+        "test": null,
+        "estimate_from": 29
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "8 Rounds For Time (cap 16:00):",
+        "7 Front Squats",
+        "7 Lateral Burpees over the bar or dumbbells",
+        "10 Plank Shoulder Taps"
+       ],
+       "rotation": [
+        "You both work at the same time: one of you front squats the barbell, the other a pair of dumbbells."
+       ],
+       "notes": "Choose a front squat weight you can do 7 times unbroken every round. Take the barbell from the rack each round.",
+       "clock_min": 16,
+       "score_label": "Time"
+      }
+     ]
+    },
+    {
+     "n": 32,
+     "lift": "Dumbbell Bench Press",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog, 1:00 jump rope, and 1:00 of air squats. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Band Pull-Aparts",
+        "10 Scap Push-ups",
+        "5 Inchworms with a Push-up",
+        "10 Band Pass-Throughs"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Dumbbell Bench Press + TRX Row",
+       "lines": [
+        "Build-up:",
+        "10 Dumbbell Bench Press, light",
+        "5 Dumbbell Bench Press, moderate",
+        "",
+        "Then 5 Sets:",
+        "Set 1: 5 Dumbbell Bench Press at 73%",
+        "Set 2: 4 Dumbbell Bench Press at 78%",
+        "Set 3: Max Reps to Technical Failure at 83%",
+        "Sets 4-5: 5 Dumbbell Bench Press at 77%",
+        "",
+        "With every set:",
+        "8-10 TRX Rows"
+       ],
+       "rotation": [
+        "One person works through both bench and rows while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Percentages come from your Session 20 result on the Working Weights tab. Expect about 4 reps on Set 3.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "bench",
+        "load_kind": "db",
+        "pct_lines": [
+         {
+          "line": 5,
+          "pct": 0.73,
+          "max_reps": false
+         },
+         {
+          "line": 6,
+          "pct": 0.78,
+          "max_reps": false
+         },
+         {
+          "line": 7,
+          "pct": 0.83,
+          "max_reps": true
+         },
+         {
+          "line": 8,
+          "pct": 0.77,
+          "max_reps": false
+         }
+        ],
+        "test": null,
+        "estimate_from": 20
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "6 Giant Sets:",
+        "10 Zottman Curls",
+        "10 Lateral Raises",
+        "10 Dumbbell Side Bends",
+        "12 Banded Tricep Pushdowns"
+       ],
+       "rotation": [
+        "Start 1:00 apart, so only one of you is on the dumbbells at a time. Rest 1:00 after each giant set."
+       ],
+       "notes": "Choose dumbbells you can curl for 12+ reps, then dial them down for the lateral raises. Side Bends: Hold one dumbbell at your side and bend toward it, 5 per side.",
+       "clock_min": 20,
+       "score_label": "Curl and raise weights (lb)"
+      }
+     ]
+    },
+    {
+     "n": 33,
+     "lift": "Back Squat",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog and 2:00 jump rope. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "8 Kettlebell Goblet Squats, light",
+        "10 Glute Bridges",
+        "8 Alternating Reverse Lunges",
+        "0:20 Bottom-of-Squat Hold"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Back Squat + Pull-ups",
+       "lines": [
+        "Build-up:",
+        "10 Back Squats, empty bar",
+        "5 Back Squats, light",
+        "",
+        "Then 5 Sets:",
+        "Set 1: 5 Back Squats at 73%",
+        "Set 2: 4 Back Squats at 78%",
+        "Set 3: Max Reps to Technical Failure at 83%",
+        "Sets 4-5: 5 Back Squats at 77%",
+        "",
+        "With every set:",
+        "4-8 Pull-ups: strict, band-assisted, or jump to the top and lower slowly"
+       ],
+       "rotation": [
+        "One person works through both squat and pull-ups while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Percentages come from your Session 19 result on the Working Weights tab. Expect about 4 reps on Set 3. If you can't do any pull-ups, do TRX Rows.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "squat",
+        "load_kind": "bar",
+        "pct_lines": [
+         {
+          "line": 5,
+          "pct": 0.73,
+          "max_reps": false
+         },
+         {
+          "line": 6,
+          "pct": 0.78,
+          "max_reps": false
+         },
+         {
+          "line": 7,
+          "pct": 0.83,
+          "max_reps": true
+         },
+         {
+          "line": 8,
+          "pct": 0.77,
+          "max_reps": false
+         }
+        ],
+        "test": null,
+        "estimate_from": 19
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "3 x 6:00 (20:00 total):",
+        "Each set: as many rounds and reps as possible in 6:00 of:",
+        "8 Push Press",
+        "10 Russian Kettlebell Swings (35/25)",
+        "20 Mountain Climbers"
+       ],
+       "rotation": [
+        "You both work at the same time: one of you push presses the barbell, the other a pair of dumbbells.",
+        "Rest 1:00 between sets, and pick up where you left off."
+       ],
+       "notes": "Choose a push press weight you can do 8 times unbroken every round.",
+       "clock_min": 20,
+       "score_label": "Rounds + reps, all 3 sets"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "group": 12,
+   "label": "Sessions 34-36",
+   "phase": "Phase 3: Peak and retest",
+   "tag": "Retest sessions",
+   "sessions": [
+    {
+     "n": 34,
+     "lift": "Deadlift",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog, 1:00 jump rope, and 1:00 of mountain climbers. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Glute Bridges",
+        "10 Bodyweight Good Mornings",
+        "5 Inchworms",
+        "10 Pogo Hops (small, quick jumps off the balls of your feet)"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Deadlift + Squat Jumps + Seated Dumbbell Strict Press",
+       "lines": [
+        "Build-up:",
+        "5 Deadlifts, light",
+        "3 Deadlifts, moderate",
+        "",
+        "Then 4 Sets:",
+        "Set 1: 5 Deadlifts at 65%",
+        "Set 2: 3 Deadlifts at 75%",
+        "Set 3: 1 Deadlift at 82%",
+        "Set 4: Max Reps to Technical Failure at 85%",
+        "",
+        "With every set:",
+        "3-5 Squat Jumps (bodyweight or light dumbbells), right after your last deadlift rep",
+        "6-8 Seated Dumbbell Strict Presses"
+       ],
+       "rotation": [
+        "One person works through a full set while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Percentages come from your Session 29 result on the Working Weights tab. Enter Set 4's weight and reps there to see how far your estimated max has moved since Session 7. The bar tops out at 195 lbs. If a weight would be higher, use 195, and still go for max reps on Set 4.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "deadlift",
+        "load_kind": "bar",
+        "pct_lines": [
+         {
+          "line": 5,
+          "pct": 0.65,
+          "max_reps": false
+         },
+         {
+          "line": 6,
+          "pct": 0.75,
+          "max_reps": false
+         },
+         {
+          "line": 7,
+          "pct": 0.82,
+          "max_reps": false
+         },
+         {
+          "line": 8,
+          "pct": 0.85,
+          "max_reps": true
+         }
+        ],
+        "test": {
+         "set_label": "Set 4"
+        },
+        "estimate_from": 29,
+        "compare_to": 7
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "Complete as many rounds and reps as possible in 24:00 of:",
+        "200 Meter Treadmill Run",
+        "12 Bicep Curls",
+        "10 Plank Shoulder Taps"
+       ],
+       "rotation": [
+        "You go, I go: one of you completes a full round while the other rests, then switch."
+       ],
+       "clock_min": 24,
+       "score_label": "Rounds + reps, together",
+       "score_shared": true
+      }
+     ]
+    },
+    {
+     "n": 35,
+     "lift": "Dumbbell Bench Press",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog and 2:00 jump rope. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "10 Band Pull-Aparts",
+        "10 Scap Push-ups",
+        "5 Inchworms with a Push-up",
+        "10 Band Pass-Throughs"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Dumbbell Bench Press + TRX Row",
+       "lines": [
+        "Build-up:",
+        "10 Dumbbell Bench Press, light",
+        "5 Dumbbell Bench Press, moderate",
+        "",
+        "Then 4 Sets:",
+        "Set 1: 5 Dumbbell Bench Press at 65%",
+        "Set 2: 3 Dumbbell Bench Press at 75%",
+        "Set 3: 1 Dumbbell Bench Press at 82%",
+        "Set 4: Max Reps to Technical Failure at 85%",
+        "",
+        "With every set:",
+        "8-10 TRX Rows"
+       ],
+       "rotation": [
+        "One person works through both bench and rows while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Percentages come from your Session 20 result on the Working Weights tab. Enter Set 4's weight and reps there to see how far your estimated max has moved since Session 8.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "bench",
+        "load_kind": "db",
+        "pct_lines": [
+         {
+          "line": 5,
+          "pct": 0.65,
+          "max_reps": false
+         },
+         {
+          "line": 6,
+          "pct": 0.75,
+          "max_reps": false
+         },
+         {
+          "line": 7,
+          "pct": 0.82,
+          "max_reps": false
+         },
+         {
+          "line": 8,
+          "pct": 0.85,
+          "max_reps": true
+         }
+        ],
+        "test": {
+         "set_label": "Set 4"
+        },
+        "estimate_from": 20,
+        "compare_to": 8
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "On the Minute x 20:00 (5 rounds of 4 stations):",
+        "Each minute: 0:40 of work + 0:20 of rest",
+        "Station 1: 0:40 of Jump Rope",
+        "Station 2: 0:40 of Kettlebell Goblet Squats (35/25)",
+        "Station 3: 0:40 of Bicycles",
+        "Station 4: 0:40 of Easy Treadmill Run"
+       ],
+       "notes": "One person starts on Station 1, the other on Station 3.",
+       "clock_min": 20,
+       "score_label": "Total reps"
+      }
+     ]
+    },
+    {
+     "n": 36,
+     "lift": "Back Squat",
+     "pieces": [
+      {
+       "type": "warmup",
+       "title": "Warm-Up",
+       "lines": [
+        "4:00 Easy Cardio: 2:00 treadmill walk-jog, 1:00 jump rope, and 1:00 of air squats. Start on different ones, then switch.",
+        "",
+        "Then 2 Rounds:",
+        "8 Kettlebell Goblet Squats, light",
+        "10 Glute Bridges",
+        "8 Alternating Reverse Lunges",
+        "0:20 Bottom-of-Squat Hold"
+       ],
+       "clock": "8:30"
+      },
+      {
+       "type": "strength",
+       "title": "Back Squat + Pull-ups",
+       "lines": [
+        "Build-up:",
+        "10 Back Squats, empty bar",
+        "5 Back Squats, light",
+        "",
+        "Then 4 Sets:",
+        "Set 1: 5 Back Squats at 65%",
+        "Set 2: 3 Back Squats at 75%",
+        "Set 3: 1 Back Squat at 82%",
+        "Set 4: Max Reps to Technical Failure at 85%",
+        "",
+        "With every set:",
+        "4-8 Pull-ups: strict, band-assisted, or jump to the top and lower slowly"
+       ],
+       "rotation": [
+        "One person works through both squat and pull-ups while the other rests. Rest at least 2:00 between sets."
+       ],
+       "notes": "Percentages come from your Session 19 result on the Working Weights tab. Enter Set 4's weight and reps there to see how far your estimated max has moved since Session 9. If you can't do any pull-ups, do TRX Rows.",
+       "score_label": "Weight and reps of your last set",
+       "app": {
+        "lift_key": "squat",
+        "load_kind": "bar",
+        "pct_lines": [
+         {
+          "line": 5,
+          "pct": 0.65,
+          "max_reps": false
+         },
+         {
+          "line": 6,
+          "pct": 0.75,
+          "max_reps": false
+         },
+         {
+          "line": 7,
+          "pct": 0.82,
+          "max_reps": false
+         },
+         {
+          "line": 8,
+          "pct": 0.85,
+          "max_reps": true
+         }
+        ],
+        "test": {
+         "set_label": "Set 4"
+        },
+        "estimate_from": 19,
+        "compare_to": 9
+       }
+      },
+      {
+       "type": "conditioning",
+       "title": "Conditioning",
+       "lines": [
+        "For Time (cap 24:00):",
+        "1,000 Meter Treadmill Run",
+        "50 Mountain Climbers",
+        "40 Russian Twists",
+        "30 Kettlebell Goblet Squats (35/25)",
+        "20 Burpees",
+        "10 Box Jumps or Box Step-ups"
+       ],
+       "rotation": [
+        "One of you starts at the top of the list. The other starts at the bottom and finishes with the run."
+       ],
+       "clock_min": 24,
+       "score_label": "Time"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
