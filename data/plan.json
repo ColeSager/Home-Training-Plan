@@ -57,7 +57,15 @@
         "5 Inchworms",
         "10 Band Pass-Throughs"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Band Pull-Aparts",
+        "Plank Shoulder Taps",
+        "Inchworms",
+        "Band Pass-Throughs"
+       ]
       },
       {
        "type": "strength",
@@ -81,7 +89,11 @@
         "load_kind": "db",
         "pct_lines": [],
         "test": null
-       }
+       },
+       "movements": [
+        "Dumbbell Bench Press",
+        "TRX Rows"
+       ]
       },
       {
        "type": "conditioning",
@@ -99,7 +111,14 @@
        ],
        "notes": "Choose a dip variation (dip station, bench dips, band-assisted) that allows you to get 8+ reps per set.",
        "clock_min": 19,
-       "score_label": "Rounds + reps, all 4 sets"
+       "score_label": "Rounds + reps, all 4 sets",
+       "movements": [
+        "Dips",
+        "Sit-ups",
+        "Crunches",
+        "V-ups",
+        "Air Squats"
+       ]
       }
      ]
     },
@@ -119,7 +138,16 @@
         "10 Air Squats",
         "10 Pogo Hops (small, quick jumps off the balls of your feet)"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Mountain Climbers",
+        "Bodyweight Good Mornings",
+        "Glute Bridges",
+        "Air Squats",
+        "Pogo Hops"
+       ]
       },
       {
        "type": "strength",
@@ -144,7 +172,12 @@
         "load_kind": "bar",
         "pct_lines": [],
         "test": null
-       }
+       },
+       "movements": [
+        "Romanian Deadlift",
+        "Squat Jumps",
+        "Seated Dumbbell Strict Press"
+       ]
       },
       {
        "type": "conditioning",
@@ -158,7 +191,14 @@
        ],
        "notes": "Work for the full 1:00 at each station. Snatches: Swing the dumbbell between your legs, then straight up overhead. Choose a dumbbell you can snatch for at least 5 reps per arm without setting it down. Switch arms every 5 reps. Flutter Kicks: Keep your low back pressed into the ground.",
        "clock_min": 16,
-       "score_label": "Total reps"
+       "score_label": "Total reps",
+       "movements": [
+        "Single-Arm Dumbbell Hang Snatches",
+        "Flutter Kicks",
+        "Box Step-ups",
+        "Box Jumps",
+        "Treadmill Run"
+       ]
       }
      ]
     },
@@ -178,7 +218,15 @@
         "5 Inchworms",
         "0:20 Bottom-of-Squat Hold"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Air Squats",
+        "Glute Bridges",
+        "Inchworms",
+        "Bottom-of-Squat Hold"
+       ]
       },
       {
        "type": "strength",
@@ -203,7 +251,11 @@
         "load_kind": "bar",
         "pct_lines": [],
         "test": null
-       }
+       },
+       "movements": [
+        "Back Squat",
+        "Pull-ups"
+       ]
       },
       {
        "type": "conditioning",
@@ -218,7 +270,13 @@
        ],
        "notes": "Walk as fast as you can without running, with the incline set between 8% and 15%. Walkouts to Down Dog: Hinge to put your hands on the floor, walk them out to a plank, push your hips up and back into down dog, then walk your hands back to your feet.",
        "clock_min": 20,
-       "score_label": "Walking speed and incline"
+       "score_label": "Walking speed and incline",
+       "movements": [
+        "Incline Treadmill Walk",
+        "Walkouts to Down Dog",
+        "Reverse Lunges",
+        "Band Pull-Aparts"
+       ]
       }
      ]
     }
@@ -246,7 +304,16 @@
         "10 Air Squats",
         "10 Pogo Hops (small, quick jumps off the balls of your feet)"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Mountain Climbers",
+        "Bodyweight Good Mornings",
+        "Glute Bridges",
+        "Air Squats",
+        "Pogo Hops"
+       ]
       },
       {
        "type": "strength",
@@ -271,7 +338,12 @@
         "load_kind": "bar",
         "pct_lines": [],
         "test": null
-       }
+       },
+       "movements": [
+        "Deadlift",
+        "Squat Jumps",
+        "Seated Dumbbell Strict Press"
+       ]
       },
       {
        "type": "conditioning",
@@ -288,7 +360,16 @@
        ],
        "notes": "Glute Bridges: Elevate your feet onto the bench. Drive through your heels to lift your hips to full extension, squeezing your glutes at the top, pausing for a quick second, then return hips to the ground. Bent-Over Rows: Support one hand on the box and row with the other arm, switching arms every 5 reps. Choose dumbbells you can curl and press for 8+ reps.",
        "clock_min": 18,
-       "score_label": "Total rounds"
+       "score_label": "Total rounds",
+       "movements": [
+        "Glute Bridges",
+        "Sit-ups",
+        "Crunches",
+        "V-ups",
+        "Dumbbell Curl to Press",
+        "Single-Arm Dumbbell Bent-Over Rows",
+        "Treadmill Run"
+       ]
       }
      ]
     },
@@ -308,7 +389,16 @@
         "5 Inchworms",
         "10 Band Pass-Throughs"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Band Pull-Aparts",
+        "Push-ups",
+        "Hands-Elevated Push-ups",
+        "Inchworms",
+        "Band Pass-Throughs"
+       ]
       },
       {
        "type": "strength",
@@ -332,7 +422,11 @@
         "load_kind": "db",
         "pct_lines": [],
         "test": null
-       }
+       },
+       "movements": [
+        "Dumbbell Bench Press",
+        "TRX Rows"
+       ]
       },
       {
        "type": "conditioning",
@@ -349,7 +443,12 @@
        "notes": "Choose dumbbells you can push press for 10+ reps unbroken when fresh. Mountain Climbers: Count each knee drive as one rep.",
        "clock_min": 24,
        "score_label": "Rounds + reps, together",
-       "score_shared": true
+       "score_shared": true,
+       "movements": [
+        "Jump Rope",
+        "Dumbbell Push Press",
+        "Mountain Climbers"
+       ]
       }
      ]
     },
@@ -369,7 +468,16 @@
         "5 Inchworms",
         "0:20 Bottom-of-Squat Hold"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Mountain Climbers",
+        "Air Squats",
+        "Glute Bridges",
+        "Inchworms",
+        "Bottom-of-Squat Hold"
+       ]
       },
       {
        "type": "strength",
@@ -394,7 +502,11 @@
         "load_kind": "bar",
         "pct_lines": [],
         "test": null
-       }
+       },
+       "movements": [
+        "Back Squat",
+        "Pull-ups"
+       ]
       },
       {
        "type": "conditioning",
@@ -411,7 +523,13 @@
        ],
        "notes": "Walk as fast as you can without running, with the incline set between 8% and 15%. Dead Bugs: Keep your low back pressed into the ground as you lower the opposite arm and leg.",
        "clock_min": 20,
-       "score_label": "Walking speed and incline"
+       "score_label": "Walking speed and incline",
+       "movements": [
+        "Incline Treadmill Walk",
+        "Walkouts to Down Dog",
+        "Band Pull-Aparts",
+        "Dead Bugs"
+       ]
       }
      ]
     }
@@ -439,7 +557,15 @@
         "10 Air Squats",
         "10 Pogo Hops (small, quick jumps off the balls of your feet)"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Bodyweight Good Mornings",
+        "Glute Bridges",
+        "Air Squats",
+        "Pogo Hops"
+       ]
       },
       {
        "type": "strength",
@@ -469,7 +595,12 @@
         "test": {
          "set_label": "Set 3"
         }
-       }
+       },
+       "movements": [
+        "Deadlift",
+        "Squat Jumps",
+        "Seated Dumbbell Strict Press"
+       ]
       },
       {
        "type": "conditioning",
@@ -483,7 +614,13 @@
        ],
        "notes": "Russian Kettlebell Swings: Swing the kettlebell to chest height with a snap of your hips. Gorilla Row: Set the kettlebell on the floor between your feet, hinge over, and row it to your ribs, switching arms every rep.",
        "clock_min": 18,
-       "score_label": "Total reps"
+       "score_label": "Total reps",
+       "movements": [
+        "No-Push-up Burpees",
+        "Treadmill Run",
+        "Russian Kettlebell Swings",
+        "Kettlebell Gorilla Rows"
+       ]
       }
      ]
     },
@@ -503,7 +640,17 @@
         "5 Inchworms",
         "10 Band Pass-Throughs"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Air Squats",
+        "Band Pull-Aparts",
+        "Push-ups",
+        "Hands-Elevated Push-ups",
+        "Inchworms",
+        "Band Pass-Throughs"
+       ]
       },
       {
        "type": "strength",
@@ -532,7 +679,11 @@
         "test": {
          "set_label": "Set 3"
         }
-       }
+       },
+       "movements": [
+        "Dumbbell Bench Press",
+        "TRX Rows"
+       ]
       },
       {
        "type": "conditioning",
@@ -549,7 +700,13 @@
        ],
        "notes": "Choose dumbbells you can curl for 12+ reps, then dial them down for the lateral raises. Banded Lat Pulldowns: Loop a band over the top of the pull-up station, kneel facing it, and pull your elbows down to your sides. Alternating Single-Leg V-ups: Lie on your back, then lift one straight leg and your chest together and reach for that foot, alternating legs.",
        "clock_min": 28,
-       "score_label": "Curl and raise weights (lb)"
+       "score_label": "Curl and raise weights (lb)",
+       "movements": [
+        "Bicep Curls",
+        "Lateral Raises",
+        "Banded Lat Pulldowns",
+        "Alternating Single-Leg V-ups"
+       ]
       }
      ]
     },
@@ -569,7 +726,15 @@
         "5 Inchworms",
         "0:20 Bottom-of-Squat Hold"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Air Squats",
+        "Glute Bridges",
+        "Inchworms",
+        "Bottom-of-Squat Hold"
+       ]
       },
       {
        "type": "strength",
@@ -599,7 +764,11 @@
         "test": {
          "set_label": "Set 3"
         }
-       }
+       },
+       "movements": [
+        "Back Squat",
+        "Pull-ups"
+       ]
       },
       {
        "type": "conditioning",
@@ -614,7 +783,13 @@
        ],
        "notes": "Walk as fast as you can without running, with the incline set between 8% and 15%. Side Plank Hip Lifts: From a side plank on your forearm, lower your hip toward the floor and lift it back up.",
        "clock_min": 20,
-       "score_label": "Walking speed and incline"
+       "score_label": "Walking speed and incline",
+       "movements": [
+        "Incline Treadmill Walk",
+        "Front Plank Hold",
+        "Side Plank Hip Lifts",
+        "Band Pull-Aparts"
+       ]
       }
      ]
     }
@@ -642,7 +817,16 @@
         "5 Inchworms",
         "10 Band Pass-Throughs"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Mountain Climbers",
+        "Band Pull-Aparts",
+        "Plank Shoulder Taps",
+        "Inchworms",
+        "Band Pass-Throughs"
+       ]
       },
       {
        "type": "strength",
@@ -666,7 +850,11 @@
         "load_kind": "bar",
         "pct_lines": [],
         "test": null
-       }
+       },
+       "movements": [
+        "Push Press",
+        "TRX Rows"
+       ]
       },
       {
        "type": "conditioning",
@@ -684,7 +872,16 @@
        ],
        "notes": "Banded Lat Pulldowns: Loop a band over the top of the pull-up station, kneel facing it, and pull your elbows down to your sides. Suitcase Carry: Hold the kettlebell at your side and walk tall without leaning, switching hands at 10 steps. If you don't have space to walk, march in place.",
        "clock_min": 16,
-       "score_label": "Total rounds"
+       "score_label": "Total rounds",
+       "movements": [
+        "Treadmill Run",
+        "Kettlebell Goblet Squats",
+        "Glute Bridges",
+        "Banded Lat Pulldowns",
+        "Flutter Kicks",
+        "Kettlebell Suitcase Carry",
+        "Plank Shoulder Taps"
+       ]
       }
      ]
     },
@@ -704,7 +901,15 @@
         "10 Air Squats",
         "10 Pogo Hops (small, quick jumps off the balls of your feet)"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Bodyweight Good Mornings",
+        "Glute Bridges",
+        "Air Squats",
+        "Pogo Hops"
+       ]
       },
       {
        "type": "strength",
@@ -729,7 +934,12 @@
         "load_kind": "bar",
         "pct_lines": [],
         "test": null
-       }
+       },
+       "movements": [
+        "Romanian Deadlift",
+        "Squat Jumps",
+        "Seated Dumbbell Strict Press"
+       ]
       },
       {
        "type": "conditioning",
@@ -746,7 +956,12 @@
        "notes": "Upright Rows: Hold the dumbbells in front of your thighs and pull them to chest height, leading with your elbows. Bicycles: Count each elbow-to-opposite-knee touch as one rep.",
        "clock_min": 24,
        "score_label": "Rounds + reps, together",
-       "score_shared": true
+       "score_shared": true,
+       "movements": [
+        "Treadmill Run",
+        "Upright Rows",
+        "Bicycles"
+       ]
       }
      ]
     },
@@ -766,7 +981,15 @@
         "5 Inchworms",
         "0:20 Bottom-of-Squat Hold"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Air Squats",
+        "Glute Bridges",
+        "Inchworms",
+        "Bottom-of-Squat Hold"
+       ]
       },
       {
        "type": "strength",
@@ -790,7 +1013,11 @@
         "load_kind": "bar",
         "pct_lines": [],
         "test": null
-       }
+       },
+       "movements": [
+        "Front Squat",
+        "Pull-ups"
+       ]
       },
       {
        "type": "conditioning",
@@ -805,7 +1032,13 @@
        ],
        "notes": "Walk as fast as you can without running, with the incline set between 8% and 15%. Wall Sit: Back flat against the wall, thighs parallel to the floor.",
        "clock_min": 20,
-       "score_label": "Walking speed and incline"
+       "score_label": "Walking speed and incline",
+       "movements": [
+        "Incline Treadmill Walk",
+        "Walkouts to Down Dog",
+        "Glute Bridges",
+        "Wall Sit"
+       ]
       }
      ]
     }
@@ -833,7 +1066,15 @@
         "5 Inchworms with a Push-up",
         "10 Band Pass-Throughs"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Band Pull-Aparts",
+        "Scap Push-ups",
+        "Inchworms with a Push-up",
+        "Band Pass-Throughs"
+       ]
       },
       {
        "type": "strength",
@@ -884,7 +1125,11 @@
         ],
         "test": null,
         "estimate_from": 8
-       }
+       },
+       "movements": [
+        "Dumbbell Bench Press",
+        "TRX Rows"
+       ]
       },
       {
        "type": "conditioning",
@@ -900,7 +1145,13 @@
        ],
        "notes": "Choose a front squat weight you can do 7 times unbroken every round. Take the barbell from the rack each round. Gorilla Row: Set the kettlebell on the floor between your feet, hinge over, and row it to your ribs, switching arms every rep.",
        "clock_min": 18,
-       "score_label": "Time"
+       "score_label": "Time",
+       "movements": [
+        "Front Squat",
+        "Dumbbell Front Squats",
+        "Kettlebell Gorilla Rows",
+        "Alternating Single-Leg V-ups"
+       ]
       }
      ]
     },
@@ -920,7 +1171,16 @@
         "5 Inchworms",
         "10 Pogo Hops (small, quick jumps off the balls of your feet)"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Mountain Climbers",
+        "Glute Bridges",
+        "Bodyweight Good Mornings",
+        "Inchworms",
+        "Pogo Hops"
+       ]
       },
       {
        "type": "strength",
@@ -945,7 +1205,12 @@
         "load_kind": "bar",
         "pct_lines": [],
         "test": null
-       }
+       },
+       "movements": [
+        "Romanian Deadlift",
+        "Squat Jumps",
+        "Seated Dumbbell Strict Press"
+       ]
       },
       {
        "type": "conditioning",
@@ -962,7 +1227,13 @@
        ],
        "notes": "Choose dumbbells you can curl for 12+ reps, then dial them down for the front raises. Zottman Curls: Curl with palms up, turn your palms down at the top, and lower slowly. Banded Tricep Pushdowns: Loop a band over the top of the pull-up station and press it down until your elbows lock, keeping your elbows at your sides.",
        "clock_min": 20,
-       "score_label": "Curl and raise weights (lb)"
+       "score_label": "Curl and raise weights (lb)",
+       "movements": [
+        "Zottman Curls",
+        "Front Raises",
+        "Banded Tricep Pushdowns",
+        "Front Plank Hold"
+       ]
       }
      ]
     },
@@ -982,7 +1253,15 @@
         "8 Alternating Reverse Lunges",
         "0:20 Bottom-of-Squat Hold"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Kettlebell Goblet Squats",
+        "Glute Bridges",
+        "Reverse Lunges",
+        "Bottom-of-Squat Hold"
+       ]
       },
       {
        "type": "strength",
@@ -1033,7 +1312,11 @@
         ],
         "test": null,
         "estimate_from": 9
-       }
+       },
+       "movements": [
+        "Back Squat",
+        "Pull-ups"
+       ]
       },
       {
        "type": "conditioning",
@@ -1062,7 +1345,13 @@
        ],
        "notes": "If you need to walk, raise the treadmill incline to compensate for slowing down.",
        "clock_min": 24,
-       "score_label": "Rounds + reps, 20:00-24:00"
+       "score_label": "Rounds + reps, 20:00-24:00",
+       "movements": [
+        "Treadmill Run",
+        "Burpees",
+        "Banded Pull-ups",
+        "Kettlebell Goblet Squats"
+       ]
       }
      ]
     }
@@ -1090,7 +1379,16 @@
         "5 Inchworms",
         "10 Pogo Hops (small, quick jumps off the balls of your feet)"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Air Squats",
+        "Glute Bridges",
+        "Bodyweight Good Mornings",
+        "Inchworms",
+        "Pogo Hops"
+       ]
       },
       {
        "type": "strength",
@@ -1115,7 +1413,12 @@
         "load_kind": "bar",
         "pct_lines": [],
         "test": null
-       }
+       },
+       "movements": [
+        "Romanian Deadlift",
+        "Squat Jumps",
+        "Seated Dumbbell Strict Press"
+       ]
       },
       {
        "type": "conditioning",
@@ -1132,7 +1435,12 @@
        "notes": "Floor Wipers: Lie on your back with your arms out wide and legs straight up, lower your legs to one side and back up, then to the other. Count each side as one rep.",
        "clock_min": 24,
        "score_label": "Rounds + reps, together",
-       "score_shared": true
+       "score_shared": true,
+       "movements": [
+        "Treadmill Run",
+        "Banded Lat Pulldowns",
+        "Floor Wipers"
+       ]
       }
      ]
     },
@@ -1152,7 +1460,15 @@
         "8 Alternating Reverse Lunges",
         "0:20 Bottom-of-Squat Hold"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Kettlebell Goblet Squats",
+        "Glute Bridges",
+        "Reverse Lunges",
+        "Bottom-of-Squat Hold"
+       ]
       },
       {
        "type": "strength",
@@ -1203,7 +1519,11 @@
         ],
         "test": null,
         "estimate_from": 9
-       }
+       },
+       "movements": [
+        "Back Squat",
+        "Pull-ups"
+       ]
       },
       {
        "type": "conditioning",
@@ -1218,7 +1538,13 @@
        ],
        "notes": "One person starts on Station 1, the other on Station 3. Choose dumbbells you can Arnold press for 8+ reps per round. Arnold Press: Start with your palms facing you at your shoulders, then turn them forward as you press overhead. Plank Pull-Throughs: From a high plank, reach under your body and drag the kettlebell to the other side, alternating hands.",
        "clock_min": 20,
-       "score_label": "Total reps"
+       "score_label": "Total reps",
+       "movements": [
+        "Treadmill Run",
+        "Arnold Press",
+        "Plank Kettlebell Pull-Throughs",
+        "Jump Rope"
+       ]
       }
      ]
     },
@@ -1238,7 +1564,16 @@
         "5 Inchworms with a Push-up",
         "10 Band Pass-Throughs"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Mountain Climbers",
+        "Band Pull-Aparts",
+        "Scap Push-ups",
+        "Inchworms with a Push-up",
+        "Band Pass-Throughs"
+       ]
       },
       {
        "type": "strength",
@@ -1289,7 +1624,11 @@
         ],
         "test": null,
         "estimate_from": 8
-       }
+       },
+       "movements": [
+        "Dumbbell Bench Press",
+        "TRX Rows"
+       ]
       },
       {
        "type": "conditioning",
@@ -1308,7 +1647,15 @@
        ],
        "notes": "Russian Kettlebell Swings: Swing the kettlebell to chest height with a snap of your hips.",
        "clock_min": 20,
-       "score_label": "Time"
+       "score_label": "Time",
+       "movements": [
+        "Treadmill Run",
+        "Reverse Lunges",
+        "Russian Kettlebell Swings",
+        "Burpees",
+        "Band Pull-Aparts",
+        "Bicycles"
+       ]
       }
      ]
     }
@@ -1336,7 +1683,15 @@
         "8 Alternating Reverse Lunges",
         "0:20 Bottom-of-Squat Hold"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Kettlebell Goblet Squats",
+        "Glute Bridges",
+        "Reverse Lunges",
+        "Bottom-of-Squat Hold"
+       ]
       },
       {
        "type": "strength",
@@ -1389,7 +1744,11 @@
          "set_label": "Set 3"
         },
         "estimate_from": 9
-       }
+       },
+       "movements": [
+        "Back Squat",
+        "Pull-ups"
+       ]
       },
       {
        "type": "conditioning",
@@ -1407,7 +1766,16 @@
        ],
        "notes": "Z-Press: Sit on the floor with your legs straight in front of you and press the dumbbells overhead without leaning back. Russian Twists: Sit tall, lean back slightly, and rotate one dumbbell from hip to hip.",
        "clock_min": 16,
-       "score_label": "Total rounds"
+       "score_label": "Total rounds",
+       "movements": [
+        "Treadmill Run",
+        "Z-Press",
+        "Russian Twists",
+        "TRX Rows",
+        "Dead Bugs",
+        "Jump Rope",
+        "Bicycles"
+       ]
       }
      ]
     },
@@ -1427,7 +1795,16 @@
         "5 Inchworms with a Push-up",
         "10 Band Pass-Throughs"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Air Squats",
+        "Band Pull-Aparts",
+        "Scap Push-ups",
+        "Inchworms with a Push-up",
+        "Band Pass-Throughs"
+       ]
       },
       {
        "type": "strength",
@@ -1480,7 +1857,11 @@
          "set_label": "Set 3"
         },
         "estimate_from": 8
-       }
+       },
+       "movements": [
+        "Dumbbell Bench Press",
+        "TRX Rows"
+       ]
       },
       {
        "type": "conditioning",
@@ -1496,7 +1877,12 @@
        ],
        "notes": "Russian Kettlebell Swings: Swing the kettlebell to chest height with a snap of your hips. Gorilla Rows: Count each arm as one rep.",
        "clock_min": 20,
-       "score_label": "Time"
+       "score_label": "Time",
+       "movements": [
+        "Russian Kettlebell Swings",
+        "Kettlebell Gorilla Rows",
+        "Burpees"
+       ]
       }
      ]
     },
@@ -1516,7 +1902,15 @@
         "5 Inchworms",
         "10 Pogo Hops (small, quick jumps off the balls of your feet)"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Glute Bridges",
+        "Bodyweight Good Mornings",
+        "Inchworms",
+        "Pogo Hops"
+       ]
       },
       {
        "type": "strength",
@@ -1541,7 +1935,12 @@
         "load_kind": "bar",
         "pct_lines": [],
         "test": null
-       }
+       },
+       "movements": [
+        "Romanian Deadlift",
+        "Squat Jumps",
+        "Seated Dumbbell Strict Press"
+       ]
       },
       {
        "type": "conditioning",
@@ -1558,7 +1957,14 @@
         "Rest 1:00 between sets, and pick up where you left off."
        ],
        "clock_min": 23,
-       "score_label": "Rounds + reps, all 4 sets"
+       "score_label": "Rounds + reps, all 4 sets",
+       "movements": [
+        "Kettlebell Goblet Squats",
+        "Band Pull-Aparts",
+        "Alternating Single-Leg V-ups",
+        "Treadmill Run",
+        "Jump Rope"
+       ]
       }
      ]
     }
@@ -1586,7 +1992,16 @@
         "5 Inchworms",
         "10 Band Pass-Throughs"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Mountain Climbers",
+        "Band Pull-Aparts",
+        "Plank Shoulder Taps",
+        "Inchworms",
+        "Band Pass-Throughs"
+       ]
       },
       {
        "type": "strength",
@@ -1610,7 +2025,11 @@
         "load_kind": "bar",
         "pct_lines": [],
         "test": null
-       }
+       },
+       "movements": [
+        "Push Press",
+        "TRX Rows"
+       ]
       },
       {
        "type": "conditioning",
@@ -1627,7 +2046,12 @@
        "notes": "Spanish Squats: Loop a heavy band around a rack post and behind your knees, step back until it's tight, and squat with your shins vertical. Flutter Kicks: Keep your low back pressed into the ground; count each kick as one rep.",
        "clock_min": 24,
        "score_label": "Rounds + reps, together",
-       "score_shared": true
+       "score_shared": true,
+       "movements": [
+        "Treadmill Run",
+        "Spanish Squats",
+        "Flutter Kicks"
+       ]
       }
      ]
     },
@@ -1647,7 +2071,15 @@
         "8 Alternating Reverse Lunges",
         "0:20 Bottom-of-Squat Hold"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Kettlebell Goblet Squats",
+        "Glute Bridges",
+        "Reverse Lunges",
+        "Bottom-of-Squat Hold"
+       ]
       },
       {
        "type": "strength",
@@ -1671,7 +2103,11 @@
         "load_kind": "bar",
         "pct_lines": [],
         "test": null
-       }
+       },
+       "movements": [
+        "Front Squat",
+        "Pull-ups"
+       ]
       },
       {
        "type": "conditioning",
@@ -1684,7 +2120,14 @@
         "Station 3: 0:40 of Alternating Reverse Lunges"
        ],
        "clock_min": 18,
-       "score_label": "Total reps"
+       "score_label": "Total reps",
+       "movements": [
+        "Treadmill Run",
+        "Sit-ups",
+        "Crunches",
+        "V-ups",
+        "Reverse Lunges"
+       ]
       }
      ]
     },
@@ -1704,7 +2147,16 @@
         "5 Inchworms",
         "10 Pogo Hops (small, quick jumps off the balls of your feet)"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Air Squats",
+        "Glute Bridges",
+        "Bodyweight Good Mornings",
+        "Inchworms",
+        "Pogo Hops"
+       ]
       },
       {
        "type": "strength",
@@ -1729,7 +2181,12 @@
         "load_kind": "bar",
         "pct_lines": [],
         "test": null
-       }
+       },
+       "movements": [
+        "Romanian Deadlift",
+        "Squat Jumps",
+        "Seated Dumbbell Strict Press"
+       ]
       },
       {
        "type": "conditioning",
@@ -1744,7 +2201,13 @@
        ],
        "notes": "Walk as fast as you can without running, with the incline set between 8% and 15%. Reverse Plank: Sit with your legs straight, hands behind your hips, and lift your hips until your body is a straight line.",
        "clock_min": 20,
-       "score_label": "Walking speed and incline"
+       "score_label": "Walking speed and incline",
+       "movements": [
+        "Incline Treadmill Walk",
+        "Walkouts to Down Dog",
+        "Glute Bridges",
+        "Reverse Plank"
+       ]
       }
      ]
     }
@@ -1772,7 +2235,15 @@
         "5 Inchworms with a Push-up",
         "10 Band Pass-Throughs"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Band Pull-Aparts",
+        "Scap Push-ups",
+        "Inchworms with a Push-up",
+        "Band Pass-Throughs"
+       ]
       },
       {
        "type": "strength",
@@ -1823,7 +2294,11 @@
         ],
         "test": null,
         "estimate_from": 20
-       }
+       },
+       "movements": [
+        "Dumbbell Bench Press",
+        "TRX Rows"
+       ]
       },
       {
        "type": "conditioning",
@@ -1840,7 +2315,13 @@
        ],
        "notes": "Choose dumbbells you can row for 12+ reps, then dial them down for the upright rows. Bent-Over Rows: Hinge until your chest is nearly parallel to the floor and pull both dumbbells to your ribs.",
        "clock_min": 20,
-       "score_label": "Row weight (lb)"
+       "score_label": "Row weight (lb)",
+       "movements": [
+        "Dumbbell Bent-Over Rows",
+        "Upright Rows",
+        "Banded Lat Pulldowns",
+        "Plank Kettlebell Pull-Throughs"
+       ]
       }
      ]
     },
@@ -1860,7 +2341,16 @@
         "8 Alternating Reverse Lunges",
         "0:20 Bottom-of-Squat Hold"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Mountain Climbers",
+        "Kettlebell Goblet Squats",
+        "Glute Bridges",
+        "Reverse Lunges",
+        "Bottom-of-Squat Hold"
+       ]
       },
       {
        "type": "strength",
@@ -1911,7 +2401,11 @@
         ],
         "test": null,
         "estimate_from": 19
-       }
+       },
+       "movements": [
+        "Back Squat",
+        "Pull-ups"
+       ]
       },
       {
        "type": "conditioning",
@@ -1927,7 +2421,13 @@
        ],
        "notes": "Choose a row weight you can do 10 times unbroken. Choose a dip variation (dip station, bench dips, band-assisted) that allows you to get 8+ reps when fresh.",
        "clock_min": 18,
-       "score_label": "Time"
+       "score_label": "Time",
+       "movements": [
+        "Barbell Bent-Over Rows",
+        "Dumbbell Bent-Over Rows",
+        "Dips",
+        "Alternating Single-Leg V-ups"
+       ]
       }
      ]
     },
@@ -1947,7 +2447,15 @@
         "5 Inchworms",
         "10 Pogo Hops (small, quick jumps off the balls of your feet)"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Glute Bridges",
+        "Bodyweight Good Mornings",
+        "Inchworms",
+        "Pogo Hops"
+       ]
       },
       {
        "type": "strength",
@@ -1972,7 +2480,12 @@
         "load_kind": "bar",
         "pct_lines": [],
         "test": null
-       }
+       },
+       "movements": [
+        "Romanian Deadlift",
+        "Squat Jumps",
+        "Seated Dumbbell Strict Press"
+       ]
       },
       {
        "type": "conditioning",
@@ -1995,7 +2508,13 @@
        ],
        "notes": "Hold the dumbbells at your sides for the lunges. We want the runs in the second block faster than the first.",
        "clock_min": 22,
-       "score_label": "Treadmill speed you held"
+       "score_label": "Treadmill speed you held",
+       "movements": [
+        "Treadmill Run",
+        "Box Jumps",
+        "Box Step-ups",
+        "Dumbbell Reverse Lunges"
+       ]
       }
      ]
     }
@@ -2023,7 +2542,16 @@
         "5 Inchworms with a Push-up",
         "10 Band Pass-Throughs"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Air Squats",
+        "Band Pull-Aparts",
+        "Scap Push-ups",
+        "Inchworms with a Push-up",
+        "Band Pass-Throughs"
+       ]
       },
       {
        "type": "strength",
@@ -2074,7 +2602,11 @@
         ],
         "test": null,
         "estimate_from": 20
-       }
+       },
+       "movements": [
+        "Dumbbell Bench Press",
+        "TRX Rows"
+       ]
       },
       {
        "type": "conditioning",
@@ -2090,7 +2622,12 @@
        ],
        "clock_min": 24,
        "score_label": "Rounds + reps, together",
-       "score_shared": true
+       "score_shared": true,
+       "movements": [
+        "Jump Rope",
+        "Kettlebell Goblet Squats",
+        "Alternating Single-Leg V-ups"
+       ]
       }
      ]
     },
@@ -2110,7 +2647,15 @@
         "5 Inchworms",
         "10 Pogo Hops (small, quick jumps off the balls of your feet)"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Glute Bridges",
+        "Bodyweight Good Mornings",
+        "Inchworms",
+        "Pogo Hops"
+       ]
       },
       {
        "type": "strength",
@@ -2164,7 +2709,12 @@
          "set_label": "Set 3"
         },
         "estimate_from": 7
-       }
+       },
+       "movements": [
+        "Deadlift",
+        "Squat Jumps",
+        "Seated Dumbbell Strict Press"
+       ]
       },
       {
        "type": "conditioning",
@@ -2180,7 +2730,12 @@
        ],
        "notes": "Choose dumbbells you can curl for 12+ reps. Banded Tricep Pushdowns: Loop a band over the top of the pull-up station and press it down until your elbows lock, keeping your elbows at your sides.",
        "clock_min": 15,
-       "score_label": "Total reps"
+       "score_label": "Total reps",
+       "movements": [
+        "Treadmill Run",
+        "Bicep Curls",
+        "Banded Tricep Pushdowns"
+       ]
       }
      ]
     },
@@ -2200,7 +2755,16 @@
         "8 Alternating Reverse Lunges",
         "0:20 Bottom-of-Squat Hold"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Mountain Climbers",
+        "Kettlebell Goblet Squats",
+        "Glute Bridges",
+        "Reverse Lunges",
+        "Bottom-of-Squat Hold"
+       ]
       },
       {
        "type": "strength",
@@ -2251,7 +2815,11 @@
         ],
         "test": null,
         "estimate_from": 19
-       }
+       },
+       "movements": [
+        "Back Squat",
+        "Pull-ups"
+       ]
       },
       {
        "type": "conditioning",
@@ -2271,7 +2839,16 @@
        ],
        "notes": "Choose a thruster weight you can do 10 times unbroken. Gorilla Rows and Mountain Climbers: Count each arm or knee drive as one rep.",
        "clock_min": 22,
-       "score_label": "Time"
+       "score_label": "Time",
+       "movements": [
+        "Treadmill Run",
+        "Kettlebell Gorilla Rows",
+        "Flutter Kicks",
+        "Thrusters",
+        "Dumbbell Thrusters",
+        "Band Pull-Aparts",
+        "Mountain Climbers"
+       ]
       }
      ]
     }
@@ -2299,7 +2876,15 @@
         "5 Inchworms",
         "10 Pogo Hops (small, quick jumps off the balls of your feet)"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Glute Bridges",
+        "Bodyweight Good Mornings",
+        "Inchworms",
+        "Pogo Hops"
+       ]
       },
       {
        "type": "strength",
@@ -2351,7 +2936,12 @@
         ],
         "test": null,
         "estimate_from": 29
-       }
+       },
+       "movements": [
+        "Deadlift",
+        "Squat Jumps",
+        "Seated Dumbbell Strict Press"
+       ]
       },
       {
        "type": "conditioning",
@@ -2367,7 +2957,13 @@
        ],
        "notes": "Choose a front squat weight you can do 7 times unbroken every round. Take the barbell from the rack each round.",
        "clock_min": 16,
-       "score_label": "Time"
+       "score_label": "Time",
+       "movements": [
+        "Front Squat",
+        "Dumbbell Front Squats",
+        "Lateral Burpees",
+        "Plank Shoulder Taps"
+       ]
       }
      ]
     },
@@ -2387,7 +2983,16 @@
         "5 Inchworms with a Push-up",
         "10 Band Pass-Throughs"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Air Squats",
+        "Band Pull-Aparts",
+        "Scap Push-ups",
+        "Inchworms with a Push-up",
+        "Band Pass-Throughs"
+       ]
       },
       {
        "type": "strength",
@@ -2438,7 +3043,11 @@
         ],
         "test": null,
         "estimate_from": 20
-       }
+       },
+       "movements": [
+        "Dumbbell Bench Press",
+        "TRX Rows"
+       ]
       },
       {
        "type": "conditioning",
@@ -2455,7 +3064,13 @@
        ],
        "notes": "Choose dumbbells you can curl for 12+ reps, then dial them down for the lateral raises. Side Bends: Hold one dumbbell at your side and bend toward it, 5 per side.",
        "clock_min": 20,
-       "score_label": "Curl and raise weights (lb)"
+       "score_label": "Curl and raise weights (lb)",
+       "movements": [
+        "Zottman Curls",
+        "Lateral Raises",
+        "Dumbbell Side Bends",
+        "Banded Tricep Pushdowns"
+       ]
       }
      ]
     },
@@ -2475,7 +3090,15 @@
         "8 Alternating Reverse Lunges",
         "0:20 Bottom-of-Squat Hold"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Kettlebell Goblet Squats",
+        "Glute Bridges",
+        "Reverse Lunges",
+        "Bottom-of-Squat Hold"
+       ]
       },
       {
        "type": "strength",
@@ -2526,7 +3149,11 @@
         ],
         "test": null,
         "estimate_from": 19
-       }
+       },
+       "movements": [
+        "Back Squat",
+        "Pull-ups"
+       ]
       },
       {
        "type": "conditioning",
@@ -2544,7 +3171,13 @@
        ],
        "notes": "Choose a push press weight you can do 8 times unbroken every round.",
        "clock_min": 20,
-       "score_label": "Rounds + reps, all 3 sets"
+       "score_label": "Rounds + reps, all 3 sets",
+       "movements": [
+        "Push Press",
+        "Dumbbell Push Press",
+        "Russian Kettlebell Swings",
+        "Mountain Climbers"
+       ]
       }
      ]
     }
@@ -2572,7 +3205,16 @@
         "5 Inchworms",
         "10 Pogo Hops (small, quick jumps off the balls of your feet)"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Mountain Climbers",
+        "Glute Bridges",
+        "Bodyweight Good Mornings",
+        "Inchworms",
+        "Pogo Hops"
+       ]
       },
       {
        "type": "strength",
@@ -2627,7 +3269,12 @@
         },
         "estimate_from": 29,
         "compare_to": 7
-       }
+       },
+       "movements": [
+        "Deadlift",
+        "Squat Jumps",
+        "Seated Dumbbell Strict Press"
+       ]
       },
       {
        "type": "conditioning",
@@ -2643,7 +3290,12 @@
        ],
        "clock_min": 24,
        "score_label": "Rounds + reps, together",
-       "score_shared": true
+       "score_shared": true,
+       "movements": [
+        "Treadmill Run",
+        "Bicep Curls",
+        "Plank Shoulder Taps"
+       ]
       }
      ]
     },
@@ -2663,7 +3315,15 @@
         "5 Inchworms with a Push-up",
         "10 Band Pass-Throughs"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Band Pull-Aparts",
+        "Scap Push-ups",
+        "Inchworms with a Push-up",
+        "Band Pass-Throughs"
+       ]
       },
       {
        "type": "strength",
@@ -2717,7 +3377,11 @@
         },
         "estimate_from": 20,
         "compare_to": 8
-       }
+       },
+       "movements": [
+        "Dumbbell Bench Press",
+        "TRX Rows"
+       ]
       },
       {
        "type": "conditioning",
@@ -2732,7 +3396,13 @@
        ],
        "notes": "One person starts on Station 1, the other on Station 3.",
        "clock_min": 20,
-       "score_label": "Total reps"
+       "score_label": "Total reps",
+       "movements": [
+        "Jump Rope",
+        "Kettlebell Goblet Squats",
+        "Bicycles",
+        "Treadmill Run"
+       ]
       }
      ]
     },
@@ -2752,7 +3422,16 @@
         "8 Alternating Reverse Lunges",
         "0:20 Bottom-of-Squat Hold"
        ],
-       "clock": "8:30"
+       "clock": "8:30",
+       "movements": [
+        "Treadmill Run",
+        "Jump Rope",
+        "Air Squats",
+        "Kettlebell Goblet Squats",
+        "Glute Bridges",
+        "Reverse Lunges",
+        "Bottom-of-Squat Hold"
+       ]
       },
       {
        "type": "strength",
@@ -2806,7 +3485,11 @@
         },
         "estimate_from": 19,
         "compare_to": 9
-       }
+       },
+       "movements": [
+        "Back Squat",
+        "Pull-ups"
+       ]
       },
       {
        "type": "conditioning",
@@ -2824,7 +3507,16 @@
         "One of you starts at the top of the list. The other starts at the bottom and finishes with the run."
        ],
        "clock_min": 24,
-       "score_label": "Time"
+       "score_label": "Time",
+       "movements": [
+        "Treadmill Run",
+        "Mountain Climbers",
+        "Russian Twists",
+        "Kettlebell Goblet Squats",
+        "Burpees",
+        "Box Jumps",
+        "Box Step-ups"
+       ]
       }
      ]
     }

@@ -15,6 +15,8 @@ const ITALIC_START = /^(Each minute:|Each station:|Each set:)/;
 const ICON = {
   down: '<svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>',
   up: '<svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg>',
+  play: '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z"/></svg>',
+  back: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>',
   right: '<svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>',
   check: '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>',
   close: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>',
@@ -26,6 +28,7 @@ let sessions = [];
 let byN = new Map();
 let groupOfN = new Map();
 let testsByLift = new Map();
+let demos = new Map();
 let state = loadState();
 const canStore = storageWorks();
 let persistAsked = false;
@@ -215,6 +218,12 @@ function pieceBody(s, p) {
   if (p.notes) html += `<p class="note"><span class="note-label">Notes:</span> ${esc(p.notes)}</p>`;
   const done = pieceDone(s.n, p.type);
   const k = `${s.n}-${p.type}`;
+  const chips = (p.movements ?? []).filter((m) => demos.get(m)?.url);
+  if (chips.length) {
+    html += `<div class="demos"><div class="eyebrow tone-muted">Demos</div><div class="demo-chips">${chips
+      .map((m) => `<button class="demo-chip" data-action="demo" data-name="${esc(m)}" aria-label="Play demo: ${esc(m)}">${ICON.play}${esc(m)}</button>`)
+      .join("")}</div></div>`;
+  }
   html += `<div class="actions">
     <label class="btn outline done-toggle"><input type="checkbox" data-action="done" data-n="${s.n}" data-type="${p.type}" data-key="done-${k}"${done ? " checked" : ""}> Done</label>
     ${p.type === "warmup" ? "" : `<button class="btn primary" data-action="log" data-n="${s.n}" data-type="${p.type}" data-key="log-${k}">Log score</button>`}
@@ -404,6 +413,7 @@ function renderMore() {
         <p class="s">Saves one file you can keep in iCloud Drive or Google Drive. Back up every few sessions.</p>
         <button class="btn outline" data-action="restore" data-key="restore">Restore from a backup</button>
       </div>
+      <button class="card row-link" data-action="demos" data-key="demos"><span class="p strong">Movement demos</span>${ICON.right}</button>
       <button class="card row-link" data-action="howto" data-key="howto"><span class="p strong">How to read this plan</span>${ICON.right}</button>
     </div>`;
 }
@@ -412,9 +422,10 @@ function render() {
   const activeKey = ui.focusKey ?? document.activeElement?.dataset?.key;
   ui.focusKey = null;
   if (!plan) return;
-  view.innerHTML = ui.tab === "weights" ? renderWeights() : ui.tab === "more" ? renderMore() : renderPlan();
+  view.innerHTML =
+    ui.tab === "weights" ? renderWeights() : ui.tab === "demos" ? renderDemos() : ui.tab === "more" ? renderMore() : renderPlan();
   for (const b of document.querySelectorAll(".tab")) {
-    if (b.dataset.tab === ui.tab) b.setAttribute("aria-current", "page");
+    if (b.dataset.tab === (ui.tab === "demos" ? "more" : ui.tab)) b.setAttribute("aria-current", "page");
     else b.removeAttribute("aria-current");
   }
   if (activeKey) view.querySelector(`[data-key="${activeKey}"]`)?.focus({ preventScroll: true });
@@ -615,6 +626,38 @@ function setOverride(key, who, value) {
   commit();
 }
 
+function renderDemos() {
+  const rows = [...demos.values()]
+    .filter((m) => m.url)
+    .sort((a, b) => a.name.localeCompare(b.name))
+    .map(
+      (m) =>
+        `<button class="demo-row" data-action="demo" data-name="${esc(m.name)}" data-key="demo-${esc(m.name)}"><span>${esc(m.name)}</span><span class="demo-play">${ICON.play}</span></button>`,
+    )
+    .join("");
+  return `
+    <section class="hero">
+      <button class="back" data-action="more-back" data-key="more-back">${ICON.back}More</button>
+      <h1 class="title sm">Movement demos</h1>
+    </section>
+    <div class="stack">
+      <input id="demo-search" class="inp" type="search" placeholder="Search movements" aria-label="Search movements" autocomplete="off">
+      <div class="demo-list">${rows}</div>
+    </div>`;
+}
+
+function openDemo(name) {
+  const m = demos.get(name);
+  if (!m?.url) return;
+  const player = navigator.onLine
+    ? `<div class="video"><iframe src="${esc(m.embed)}" title="${esc(m.name)} demo" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>`
+    : '<p class="video-offline">Videos need an internet connection.</p>';
+  const body = `${player}
+    ${m.title && m.title !== m.name ? `<p class="s">Video: ${esc(m.title)}</p>` : ""}
+    <a class="btn outline big" href="${esc(m.url)}" target="_blank" rel="noopener">Open in Vimeo</a>`;
+  showSheet(sheetShell("muted", "Demo", m.name, body, `${m.name} demo`), () => closeSheet());
+}
+
 function openHowTo() {
   const body = `<ol class="howto">${plan.how_to_read.map((t) => `<li>${esc(t)}</li>`).join("")}</ol>`;
   showSheet(sheetShell("muted", "More", "How to read this plan", body, "How to read this plan"), () => closeSheet());
@@ -709,6 +752,15 @@ document.addEventListener("click", (e) => {
     case "close-sheet":
       closeSheet();
       break;
+    case "demo":
+      openDemo(el.dataset.name);
+      break;
+    case "demos":
+    case "more-back":
+      ui.tab = action === "demos" ? "demos" : "more";
+      render();
+      window.scrollTo(0, 0);
+      break;
     case "howto":
       openHowTo();
       break;
@@ -736,11 +788,25 @@ sheet.addEventListener("click", (e) => {
   if (e.target === sheet) closeSheet();
 });
 
+sheet.addEventListener("close", () => {
+  for (const f of sheet.querySelectorAll("iframe")) f.remove();
+});
+
+view.addEventListener("input", (e) => {
+  if (e.target.id !== "demo-search") return;
+  const q = e.target.value.trim().toLowerCase();
+  for (const row of view.querySelectorAll(".demo-row")) row.hidden = !row.dataset.name.toLowerCase().includes(q);
+});
+
 async function start() {
+  const demosLoad = fetch("data/demos.json", { cache: "no-cache" })
+    .then((r) => (r.ok ? r.json() : { movements: [] }))
+    .catch(() => ({ movements: [] }));
   try {
     const res = await fetch("data/plan.json", { cache: "no-cache" });
     if (!res.ok) throw new Error(String(res.status));
     indexPlan(await res.json());
+    demos = new Map((await demosLoad).movements.map((m) => [m.name, m]));
   } catch {
     view.innerHTML = '<p class="load-error">Could not load the plan. Check your connection and open the app again.</p>';
     return;

@@ -41,9 +41,11 @@ test("every file the service worker precaches exists", () => {
   const sw = read("sw.js");
   const list = sw.slice(sw.indexOf("const SHELL = ["), sw.indexOf("];", sw.indexOf("const SHELL = [")));
   const files = [...list.matchAll(/"([^"]+)"/g)].map((m) => m[1]).filter((f) => f !== "./");
+  const fresh = [...sw.match(/const NETWORK_FIRST = \[([^\]]+)\]/)[1].matchAll(/"([^"]+)"/g)].map((m) => m[1]);
+  assert.deepEqual(fresh, ["data/plan.json", "data/demos.json"]);
+  assert.ok(sw.includes("...NETWORK_FIRST,"));
   assert.ok(files.length > 10);
-  assert.ok(sw.includes("PLAN,"));
-  for (const f of [...files, "data/plan.json"]) assert.ok(existsSync(join(root, f)), f);
+  for (const f of [...files, ...fresh]) assert.ok(existsSync(join(root, f)), f);
 });
 
 test("every font the stylesheet loads is precached", () => {

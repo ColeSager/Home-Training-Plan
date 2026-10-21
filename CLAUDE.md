@@ -12,13 +12,14 @@ Decisions, reasoning and measured traps go in an append-only `../Home-Training-P
 
 - No framework, no build step, no runtime dependencies. Playwright is dev-only.
 - No em or en dashes anywhere: code, copy, commits, docs. A unit test scans the repo.
-- `data/plan.json` is generated outside the repo. Never edit workout text by hand.
+- `data/plan.json` and `data/demos.json` are generated outside the repo. Never edit them by hand.
+- Never cache `vimeo.com` or `player.vimeo.com` requests; embeds need their `?h=<hash>`.
 - Log keys are `"<n>-<piece type>"` and must not depend on workout text.
 - Never commit anything from `~/ClaudeScratch/Couple_Home_Plan/tools/`, the `.xlsx`, or the mock-up files.
 
 ## Plan updates
 
-Replace `data/plan.json`, bump `VERSION` in `sw.js`, run the tests, push to `main`.
+Replace `data/plan.json` or `data/demos.json`, bump `VERSION` in `sw.js`, run the tests, push to `main`.
 
 ## Run
 

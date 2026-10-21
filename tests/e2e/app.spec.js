@@ -332,10 +332,10 @@ test("line styling follows the plan rules", async ({ page }) => {
   await expect(page.locator('#body-2-strength [data-line="0"]')).toHaveClass(/lead/);
   await openPiece(page, 2, "conditioning");
   await expect(page.locator('#body-2-conditioning [data-line="1"] .b')).toHaveText("Station 1:");
-  await expect(page.locator("#piece-2-conditioning .eyebrow")).toHaveText("Conditioning · 16:00");
-  await expect(page.locator("#piece-2-strength .eyebrow")).toHaveText("Strength · 10:00");
+  await expect(page.locator("#piece-2-conditioning .piece-toggle .eyebrow")).toHaveText("Conditioning · 16:00");
+  await expect(page.locator("#piece-2-strength .piece-toggle .eyebrow")).toHaveText("Strength · 10:00");
   await openPiece(page, 2, "warmup");
-  await expect(page.locator("#piece-2-warmup .eyebrow")).toHaveText("Warm-Up · 8:30");
+  await expect(page.locator("#piece-2-warmup .piece-toggle .eyebrow")).toHaveText("Warm-Up · 8:30");
   await expect(page.locator('#piece-2-warmup [data-action="log"]')).toHaveCount(0);
 });
 
@@ -355,5 +355,86 @@ test.describe("offline", () => {
     await openSession(page, 1);
     await logStrength(page, 1, [45, 10], [25, 10]);
     await expect(page.locator("#piece-1-strength .check")).toBeVisible();
+  });
+});
+
+test.describe("movement demos", () => {
+  test.beforeEach(async ({ page }) => {
+    await page.route(/vimeo\.com/, (route) => route.abort());
+  });
+
+  const chips = (page, n, type) => page.locator(`#piece-${n}-${type} .demo-chip`);
+
+  test("Session 1 Strength shows its demo chips in order", async ({ page }) => {
+    await open(page);
+    await openSession(page, 1);
+    await openPiece(page, 1, "strength");
+    await expect(chips(page, 1, "strength")).toHaveText(["Dumbbell Bench Press", "TRX Rows"]);
+    await expect(page.getByRole("button", { name: "Play demo: TRX Rows" })).toBeVisible();
+  });
+
+  test("Session 1 Warm-Up shows only movements that have a video", async ({ page }) => {
+    await open(page);
+    await openSession(page, 1);
+    await openPiece(page, 1, "warmup");
+    await expect(chips(page, 1, "warmup")).toHaveText(["Band Pull-Aparts", "Band Pass-Throughs"]);
+  });
+
+  test("a chip opens the video sheet and closing removes the player", async ({ page }) => {
+    await open(page);
+    await openSession(page, 1);
+    await openPiece(page, 1, "strength");
+    await page.getByRole("button", { name: "Play demo: Dumbbell Bench Press" }).click();
+    const sheet = page.locator("#sheet");
+    await expect(sheet.locator(".sheet-title")).toHaveText("Dumbbell Bench Press");
+    await expect(sheet.locator(".eyebrow")).toHaveText("Demo");
+    await expect(sheet.locator("iframe")).toHaveAttribute("src", "https://player.vimeo.com/video/1122079118?h=1b23b6081b");
+    await expect(sheet.getByRole("link", { name: "Open in Vimeo" })).toHaveAttribute("href", "https://vimeo.com/1122079118/1b23b6081b");
+    await sheet.getByRole("button", { name: "Close" }).click();
+    await expect(sheet).toBeHidden();
+    await expect(page.locator("#sheet iframe")).toHaveCount(0);
+  });
+
+  test("a borrowed video names its source", async ({ page }) => {
+    await open(page);
+    await openSession(page, 1);
+    await openPiece(page, 1, "strength");
+    await page.getByRole("button", { name: "Play demo: TRX Rows" }).click();
+    await expect(page.locator("#sheet")).toContainText("Video: Ring Rows");
+  });
+
+  test("More lists every movement with a video and searches by name", async ({ page }) => {
+    await open(page);
+    await page.getByRole("button", { name: "More", exact: true }).click();
+    await page.getByRole("button", { name: "Movement demos" }).click();
+    await expect(page.locator("h1")).toHaveText("Movement demos");
+    await expect(page.locator(".demo-row")).toHaveCount(53);
+    await page.getByRole("searchbox", { name: "Search movements" }).fill("squat");
+    await expect(page.locator(".demo-row:visible")).toHaveText([
+      "Air Squats",
+      "Back Squat",
+      "Dumbbell Front Squats",
+      "Front Squat",
+      "Kettlebell Goblet Squats",
+      "Spanish Squats",
+      "Squat Jumps",
+    ]);
+    await page.locator(".demo-row:visible", { hasText: "Back Squat" }).click();
+    await expect(page.locator("#sheet .sheet-title")).toHaveText("Back Squat");
+    await page.locator("#sheet").getByRole("button", { name: "Close" }).click();
+    await page.getByRole("button", { name: "More", exact: true }).first().click();
+    await expect(page.locator("h1")).toHaveText("More");
+  });
+
+  test("offline, a chip shows the offline message and keeps the Vimeo link", async ({ page, context }) => {
+    await open(page);
+    await context.setOffline(true);
+    await openSession(page, 1);
+    await openPiece(page, 1, "strength");
+    await page.getByRole("button", { name: "Play demo: Dumbbell Bench Press" }).click();
+    const sheet = page.locator("#sheet");
+    await expect(sheet).toContainText("Videos need an internet connection.");
+    await expect(sheet.locator("iframe")).toHaveCount(0);
+    await expect(sheet.getByRole("link", { name: "Open in Vimeo" })).toBeVisible();
   });
 });

@@ -1,6 +1,6 @@
-const VERSION = "2";
+const VERSION = "3";
 const CACHE = `htp-v${VERSION}`;
-const PLAN = "data/plan.json";
+const NETWORK_FIRST = ["data/plan.json", "data/demos.json"];
 
 const SHELL = [
   "./",
@@ -10,7 +10,7 @@ const SHELL = [
   "calc.js",
   "store.js",
   "manifest.webmanifest",
-  PLAN,
+  ...NETWORK_FIRST,
   "icons/icon-192.png",
   "icons/icon-512.png",
   "icons/icon-maskable-512.png",
@@ -74,6 +74,6 @@ self.addEventListener("fetch", (event) => {
   if (request.method !== "GET") return;
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
-  const plan = new URL(PLAN, self.registration.scope).pathname;
-  event.respondWith(url.pathname === plan ? networkFirst(request) : cacheFirst(request));
+  const fresh = NETWORK_FIRST.some((p) => new URL(p, self.registration.scope).pathname === url.pathname);
+  event.respondWith(fresh ? networkFirst(request) : cacheFirst(request));
 });
