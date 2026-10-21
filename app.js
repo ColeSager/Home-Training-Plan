@@ -1,4 +1,4 @@
-import { estimateMax, pieceLoads, resolveEstimate, changeSince } from "./calc.js";
+import { estimateMax, pieceLoads, resolveEstimate, changeSince, strengthMinutes } from "./calc.js";
 import { loadState, saveState, parseState, storageWorks } from "./store.js";
 
 const PEOPLE = [
@@ -49,8 +49,9 @@ const nowIso = () => new Date().toISOString();
 
 function fmtClock(p) {
   if (p.type === "warmup") return p.clock ?? "";
-  if (p.type !== "conditioning" || p.clock_min == null) return "";
-  const secs = Math.round(p.clock_min * 60);
+  const min = p.type === "strength" ? strengthMinutes(p) : p.clock_min;
+  if (min == null) return "";
+  const secs = Math.round(min * 60);
   return `${Math.floor(secs / 60)}:${String(secs % 60).padStart(2, "0")}`;
 }
 
@@ -461,10 +462,9 @@ function openSession(n) {
     ui.openSession = null;
     ui.openPiece = null;
   } else {
-    const s = byN.get(n);
     ui.group = groupOfN.get(n);
     ui.openSession = n;
-    ui.openPiece = s.pieces.find((p) => !pieceDone(n, p.type))?.type ?? null;
+    ui.openPiece = null;
     ui.scrollTo = `session-${n}`;
   }
   render();

@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import { estimateMax, barLoad, dbLoad, pieceLoads, resolveEstimate, changeSince } from "../../calc.js";
+import { estimateMax, barLoad, dbLoad, pieceLoads, resolveEstimate, changeSince, strengthMinutes } from "../../calc.js";
 
 const plan = JSON.parse(readFileSync(new URL("../../data/plan.json", import.meta.url), "utf8"));
 const fixtures = JSON.parse(readFileSync(new URL("../fixtures/calc_fixtures.json", import.meta.url), "utf8"));
@@ -76,6 +76,32 @@ test("a missing test falls back to the most recent earlier test", () => {
   assert.deepEqual(resolveEstimate([9, 19, 36], 19, (n) => ({ 9: 120, 19: 130 })[n] ?? null), { n: 19, value: 130 });
   assert.equal(resolveEstimate([7, 29, 34], 29, () => null), null);
   assert.deepEqual(resolveEstimate([7, 29, 34], 29, (n) => (n === 34 ? 300 : null)), null);
+});
+
+const strength = (n) => sessions.get(n).pieces.find((p) => p.type === "strength");
+
+test("strength time: 1:00 per movement per set, rest only between sets", () => {
+  assert.equal(strengthMinutes(strength(1)), 10);
+  assert.equal(strengthMinutes(strength(4)), 14);
+  assert.equal(strengthMinutes(strength(13)), 18);
+  assert.equal(strengthMinutes(strength(34)), 14);
+});
+
+test("strength time skips add-ons done right after another movement", () => {
+  assert.equal(strengthMinutes(strength(2)), 10);
+});
+
+test("strength time counts 2:00 for a movement over 15 reps and reads the rest", () => {
+  const piece = { lines: ["Then 3 Sets:", "20 Air Squats", "10 Push-ups"], rotation: ["Rest at least 1:30 between sets."] };
+  assert.equal(strengthMinutes(piece), 12);
+});
+
+test("strength time prefers clock_min from the plan", () => {
+  assert.equal(strengthMinutes({ ...strength(1), clock_min: 12 }), 12);
+});
+
+test("every strength piece in the plan gets a time", () => {
+  for (const [n] of sessions) assert.ok(strengthMinutes(strength(n)) > 0, `session ${n}`);
 });
 
 test("change since the first test", () => {

@@ -52,10 +52,11 @@ async function logConditioning(page, n, him, her) {
   await expect(sheet).toBeHidden();
 }
 
-test("only one piece is open at a time", async ({ page }) => {
+test("a session opens folded, then only one piece is open at a time", async ({ page }) => {
   await open(page);
   await openSession(page, 2);
-  await expect(page.locator(".piece.is-open")).toHaveCount(1);
+  await expect(page.locator("#session-2 .piece")).toHaveCount(3);
+  await expect(page.locator(".piece.is-open")).toHaveCount(0);
   for (const type of ["strength", "conditioning", "warmup"]) {
     await page.locator(`#piece-2-${type} .piece-toggle`).click();
     await expect(page.locator(".piece.is-open")).toHaveCount(1);
@@ -234,6 +235,7 @@ test("a you go, I go piece logs one Together score", async ({ page }) => {
 test("Done on warm-up advances to strength; unchecking keeps logged values", async ({ page }) => {
   await open(page);
   await openSession(page, 1);
+  await openPiece(page, 1, "warmup");
   await page.locator('#piece-1-warmup input[data-action="done"]').click();
   await expect(page.locator("#piece-1-strength")).toHaveClass(/is-open/);
   await logStrength(page, 1, [50, 8], [30, 8]);
@@ -331,6 +333,7 @@ test("line styling follows the plan rules", async ({ page }) => {
   await openPiece(page, 2, "conditioning");
   await expect(page.locator('#body-2-conditioning [data-line="1"] .b')).toHaveText("Station 1:");
   await expect(page.locator("#piece-2-conditioning .eyebrow")).toHaveText("Conditioning · 16:00");
+  await expect(page.locator("#piece-2-strength .eyebrow")).toHaveText("Strength · 10:00");
   await openPiece(page, 2, "warmup");
   await expect(page.locator("#piece-2-warmup .eyebrow")).toHaveText("Warm-Up · 8:30");
   await expect(page.locator('#piece-2-warmup [data-action="log"]')).toHaveCount(0);

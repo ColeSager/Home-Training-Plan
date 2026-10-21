@@ -44,6 +44,33 @@ export function resolveEstimate(testNs, estimateFrom, estimateAt) {
   return null;
 }
 
+const SETS = /^Then (\d+) Sets:$/;
+const REST = /Rest at least (\d+):(\d{2}) between sets/;
+
+export function strengthMinutes(piece) {
+  if (piece.clock_min != null) return piece.clock_min;
+  const start = piece.lines.findIndex((l) => SETS.test(l));
+  if (start < 0) return null;
+  const sets = Number(piece.lines[start].match(SETS)[1]);
+  let perSet = 0;
+  let mainLift = false;
+  for (const line of piece.lines.slice(start + 1)) {
+    if (/^Sets? \d/.test(line)) {
+      if (!mainLift) perSet += 1;
+      mainLift = true;
+      continue;
+    }
+    if (/right after/.test(line)) continue;
+    const reps = line.match(/^(\d+)(?:-(\d+))?\s/);
+    if (!reps) continue;
+    perSet += Math.max(1, Math.ceil(Number(reps[2] ?? reps[1]) / 15));
+  }
+  if (!perSet) return null;
+  const rest = (piece.rotation ?? []).join(" ").match(REST);
+  const restMin = rest ? Number(rest[1]) + Number(rest[2]) / 60 : 2;
+  return sets * perSet + (sets - 1) * restMin;
+}
+
 export function changeSince(retest, first) {
   return retest / first - 1;
 }
