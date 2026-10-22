@@ -325,6 +325,14 @@ test("every session renders every line", async ({ page }) => {
   }
 });
 
+test("the final plan is loaded", async ({ page }) => {
+  await open(page);
+  for (const [n, clock] of [[12, "24:00"], [29, "16:00"]]) {
+    await openSession(page, n);
+    await expect(page.locator(`#piece-${n}-conditioning .piece-toggle .eyebrow`)).toHaveText(`Conditioning · ${clock}`);
+  }
+});
+
 test("line styling follows the plan rules", async ({ page }) => {
   await open(page);
   await openSession(page, 2);
@@ -377,7 +385,7 @@ test.describe("movement demos", () => {
     await open(page);
     await openSession(page, 1);
     await openPiece(page, 1, "warmup");
-    await expect(chips(page, 1, "warmup")).toHaveText(["Band Pull-Aparts", "Band Pass-Throughs"]);
+    await expect(chips(page, 1, "warmup")).toHaveText(["Band Pull-Aparts"]);
   });
 
   test("a chip opens the video sheet and closing removes the player", async ({ page }) => {
@@ -395,27 +403,18 @@ test.describe("movement demos", () => {
     await expect(page.locator("#sheet iframe")).toHaveCount(0);
   });
 
-  test("a borrowed video names its source", async ({ page }) => {
-    await open(page);
-    await openSession(page, 1);
-    await openPiece(page, 1, "strength");
-    await page.getByRole("button", { name: "Play demo: TRX Rows" }).click();
-    await expect(page.locator("#sheet")).toContainText("Video: Ring Rows");
-  });
-
   test("More lists every movement with a video and searches by name", async ({ page }) => {
     await open(page);
     await page.getByRole("button", { name: "More", exact: true }).click();
     await page.getByRole("button", { name: "Movement demos" }).click();
     await expect(page.locator("h1")).toHaveText("Movement demos");
-    await expect(page.locator(".demo-row")).toHaveCount(53);
+    await expect(page.locator(".demo-row")).toHaveCount(51);
     await page.getByRole("searchbox", { name: "Search movements" }).fill("squat");
     await expect(page.locator(".demo-row:visible")).toHaveText([
       "Air Squats",
       "Back Squat",
       "Dumbbell Front Squats",
-      "Front Squat",
-      "Kettlebell Goblet Squats",
+      "Goblet Squats",
       "Spanish Squats",
       "Squat Jumps",
     ]);

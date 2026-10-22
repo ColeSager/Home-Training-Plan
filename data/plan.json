@@ -2,7 +2,6 @@
  "how_to_read": [
   "Do the 36 sessions in order. Train no more than 3 sessions in any 7 days, and ideally no more than 2 days in a row.",
   "If 14 or more days pass between sessions, repeat your last session before moving on.",
-  "Two numbers joined by / read as him/her: Goblet Squats (35/25) means he uses the 35 lb kettlebell and she uses the 25.",
   "No set goes past technical failure. Technical failure is when your form breaks down and you have a sloppy rep.",
   "Strength: one person works through the full set while the other rests, then switch. Conditioning: each piece says where each of you starts or when to switch, so you never need the same equipment at the same time.",
   "From Session 13, some lifts use percentages. Enter your test sets on the Working Weights tab and it shows each weight.",
@@ -59,12 +58,7 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
-        "Band Pull-Aparts",
-        "Plank Shoulder Taps",
-        "Inchworms",
-        "Band Pass-Throughs"
+        "Band Pull-Aparts"
        ]
       },
       {
@@ -99,15 +93,15 @@
        "type": "conditioning",
        "title": "Conditioning",
        "lines": [
-        "4 x 4:00 (19:00 total):",
+        "4 x 4:00 Intervals:",
         "Each set: as many rounds and reps as possible in 4:00 of:",
         "8 Dips",
         "12 Sit-ups/Crunches/V-ups",
         "16 Air Squats"
        ],
        "rotation": [
-        "Rest 1:00 between sets, and pick up where you left off.",
-        "You both work at the same time: one of you on the dip station, the other on the bench."
+        "Rest 1:00 between intervals, and pick up where you left off.",
+        "You both work at the same time, starting at different stations."
        ],
        "notes": "Choose a dip variation (dip station, bench dips, band-assisted) that allows you to get 8+ reps per set.",
        "clock_min": 19,
@@ -140,9 +134,6 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
-        "Mountain Climbers",
         "Bodyweight Good Mornings",
         "Glute Bridges",
         "Air Squats",
@@ -175,8 +166,7 @@
        },
        "movements": [
         "Romanian Deadlift",
-        "Squat Jumps",
-        "Seated Dumbbell Strict Press"
+        "Squat Jumps"
        ]
       },
       {
@@ -193,11 +183,7 @@
        "clock_min": 16,
        "score_label": "Total reps",
        "movements": [
-        "Single-Arm Dumbbell Hang Snatches",
-        "Flutter Kicks",
-        "Box Step-ups",
-        "Box Jumps",
-        "Treadmill Run"
+        "Box Step-ups"
        ]
       }
      ]
@@ -220,12 +206,8 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
         "Air Squats",
-        "Glute Bridges",
-        "Inchworms",
-        "Bottom-of-Squat Hold"
+        "Glute Bridges"
        ]
       },
       {
@@ -268,12 +250,10 @@
        "rotation": [
         "One of you starts on the treadmill, the other on Station 2."
        ],
-       "notes": "Walk as fast as you can without running, with the incline set between 8% and 15%. Walkouts to Down Dog: Hinge to put your hands on the floor, walk them out to a plank, push your hips up and back into down dog, then walk your hands back to your feet.",
+       "notes": "This is intended to be a lighter workout to keep you moving but not beat the body down. Walk as fast as you can without running, with the incline set between 8% and 15%. Walkouts to Down Dog: Hinge to put your hands on the floor, walk them out to a plank, push your hips up and back into down dog, then walk your hands back to your feet.",
        "clock_min": 20,
        "score_label": "Walking speed and incline",
        "movements": [
-        "Incline Treadmill Walk",
-        "Walkouts to Down Dog",
         "Reverse Lunges",
         "Band Pull-Aparts"
        ]
@@ -306,9 +286,6 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
-        "Mountain Climbers",
         "Bodyweight Good Mornings",
         "Glute Bridges",
         "Air Squats",
@@ -340,9 +317,7 @@
         "test": null
        },
        "movements": [
-        "Deadlift",
-        "Squat Jumps",
-        "Seated Dumbbell Strict Press"
+        "Squat Jumps"
        ]
       },
       {
@@ -366,9 +341,7 @@
         "Sit-ups",
         "Crunches",
         "V-ups",
-        "Dumbbell Curl to Press",
-        "Single-Arm Dumbbell Bent-Over Rows",
-        "Treadmill Run"
+        "Single-Arm Dumbbell Bent-Over Rows"
        ]
       }
      ]
@@ -391,13 +364,9 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
         "Band Pull-Aparts",
         "Push-ups",
-        "Hands-Elevated Push-ups",
-        "Inchworms",
-        "Band Pass-Throughs"
+        "Hands-Elevated Push-ups"
        ]
       },
       {
@@ -440,15 +409,11 @@
        "rotation": [
         "You go, I go: one of you completes a full round while the other rests, then switch."
        ],
-       "notes": "Choose dumbbells you can push press for 10+ reps unbroken when fresh. Mountain Climbers: Count each knee drive as one rep.",
+       "notes": "Choose dumbbells you can push press for 10+ reps unbroken when fresh. Mountain Climbers: Count each knee drive as one rep. You can substitute a 1:00 treadmill run/jog for the jump rope if you'd prefer, or even switch it up partway through the workout.",
        "clock_min": 24,
        "score_label": "Rounds + reps, together",
        "score_shared": true,
-       "movements": [
-        "Jump Rope",
-        "Dumbbell Push Press",
-        "Mountain Climbers"
-       ]
+       "movements": []
       }
      ]
     },
@@ -470,13 +435,8 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
-        "Mountain Climbers",
         "Air Squats",
-        "Glute Bridges",
-        "Inchworms",
-        "Bottom-of-Squat Hold"
+        "Glute Bridges"
        ]
       },
       {
@@ -512,7 +472,7 @@
        "type": "conditioning",
        "title": "Conditioning",
        "lines": [
-        "2 x 10:00 (20:00 total). Switch stations at 10:00.",
+        "2 x 10:00 Intervals. Switch stations at 10:00.",
         "Station 1: 10:00 Incline Treadmill Walk",
         "Station 2: On the Minute x 10:00:",
         "Odd minutes: 3 Walkouts to Down Dog + 10 Band Pull-Aparts",
@@ -521,12 +481,10 @@
        "rotation": [
         "One of you starts on the treadmill, the other on Station 2."
        ],
-       "notes": "Walk as fast as you can without running, with the incline set between 8% and 15%. Dead Bugs: Keep your low back pressed into the ground as you lower the opposite arm and leg.",
+       "notes": "This is intended to be a lighter workout to keep you moving but not beat the body down. Walk as fast as you can without running, with the incline set between 8% and 15%. Dead Bugs: Keep your low back pressed into the ground as you lower the opposite arm and leg.",
        "clock_min": 20,
        "score_label": "Walking speed and incline",
        "movements": [
-        "Incline Treadmill Walk",
-        "Walkouts to Down Dog",
         "Band Pull-Aparts",
         "Dead Bugs"
        ]
@@ -559,8 +517,6 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
         "Bodyweight Good Mornings",
         "Glute Bridges",
         "Air Squats",
@@ -597,9 +553,7 @@
         }
        },
        "movements": [
-        "Deadlift",
-        "Squat Jumps",
-        "Seated Dumbbell Strict Press"
+        "Squat Jumps"
        ]
       },
       {
@@ -609,17 +563,14 @@
         "On the Minute x 18:00 (6 rounds of 3 stations):",
         "Each minute: 0:40 of work + 0:20 of rest",
         "Station 1: 0:40 of No-Push-up Burpees or Treadmill Jog",
-        "Station 2: 0:40 of Russian Kettlebell Swings (35/25)",
-        "Station 3: 0:40 of Kettlebell Gorilla Rows (35/25)"
+        "Station 2: 0:40 of Russian Kettlebell Swings",
+        "Station 3: 0:40 of Gorilla Rows"
        ],
        "notes": "Russian Kettlebell Swings: Swing the kettlebell to chest height with a snap of your hips. Gorilla Row: Set the kettlebell on the floor between your feet, hinge over, and row it to your ribs, switching arms every rep.",
        "clock_min": 18,
        "score_label": "Total reps",
        "movements": [
-        "No-Push-up Burpees",
-        "Treadmill Run",
-        "Russian Kettlebell Swings",
-        "Kettlebell Gorilla Rows"
+        "Gorilla Rows"
        ]
       }
      ]
@@ -642,14 +593,10 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
         "Air Squats",
         "Band Pull-Aparts",
         "Push-ups",
-        "Hands-Elevated Push-ups",
-        "Inchworms",
-        "Band Pass-Throughs"
+        "Hands-Elevated Push-ups"
        ]
       },
       {
@@ -689,16 +636,16 @@
        "type": "conditioning",
        "title": "Conditioning",
        "lines": [
-        "6 Giant Sets:",
+        "3-5 Giant Sets:",
         "10 Bicep Curls",
         "10 Lateral Raises",
         "12 Banded Lat Pulldowns",
         "12 Alternating Single-Leg V-ups"
        ],
        "rotation": [
-        "One person works through a full giant set while the other rests, then switch."
+        "One person works through a full giant set while the other rests, then switch. Each person completes 3-5 total sets."
        ],
-       "notes": "Choose dumbbells you can curl for 12+ reps, then dial them down for the lateral raises. Banded Lat Pulldowns: Loop a band over the top of the pull-up station, kneel facing it, and pull your elbows down to your sides. Alternating Single-Leg V-ups: Lie on your back, then lift one straight leg and your chest together and reach for that foot, alternating legs.",
+       "notes": "Choose dumbbells you can curl for 12+ reps, then decrease the weight for the lateral raises. Banded Lat Pulldowns: Loop a band over the top of the pull-up station, kneel facing it, and pull your elbows down to your sides. Alternating Single-Leg V-ups: Lie on your back, then lift one straight leg and your chest together and reach for that foot, alternating legs.",
        "clock_min": 28,
        "score_label": "Curl and raise weights (lb)",
        "movements": [
@@ -728,12 +675,8 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
         "Air Squats",
-        "Glute Bridges",
-        "Inchworms",
-        "Bottom-of-Squat Hold"
+        "Glute Bridges"
        ]
       },
       {
@@ -781,11 +724,10 @@
        "rotation": [
         "One of you starts on the treadmill, the other on Station 2."
        ],
-       "notes": "Walk as fast as you can without running, with the incline set between 8% and 15%. Side Plank Hip Lifts: From a side plank on your forearm, lower your hip toward the floor and lift it back up.",
+       "notes": "This is intended to be a lighter workout to keep you moving but not beat the body down. Walk as fast as you can without running, with the incline set between 8% and 15%. Side Plank Hip Lifts: From a side plank on your forearm, lower your hip toward the floor and lift it back up.",
        "clock_min": 20,
        "score_label": "Walking speed and incline",
        "movements": [
-        "Incline Treadmill Walk",
         "Front Plank Hold",
         "Side Plank Hip Lifts",
         "Band Pull-Aparts"
@@ -819,13 +761,7 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
-        "Mountain Climbers",
-        "Band Pull-Aparts",
-        "Plank Shoulder Taps",
-        "Inchworms",
-        "Band Pass-Throughs"
+        "Band Pull-Aparts"
        ]
       },
       {
@@ -863,24 +799,21 @@
         "On the 2:00 x 16:00 (2 rounds of 4 stations):",
         "Each station: as many rounds as possible in 2:00",
         "Station 1: Treadmill Run",
-        "Station 2: 10 Kettlebell Goblet Squats (35/25) + 10 Glute Bridges",
+        "Station 2: 10 Goblet Squats + 10 Banded Good Mornings",
         "Station 3: 12 Banded Lat Pulldowns + 20 Flutter Kicks",
-        "Station 4: 20-Step Kettlebell Suitcase Carry (35/25) + 10 Plank Shoulder Taps"
+        "Station 4: 20-Step Kettlebell Suitcase Carry + 10 Plank Shoulder Taps"
        ],
        "rotation": [
         "One person starts on Station 1, the other on Station 3."
        ],
-       "notes": "Banded Lat Pulldowns: Loop a band over the top of the pull-up station, kneel facing it, and pull your elbows down to your sides. Suitcase Carry: Hold the kettlebell at your side and walk tall without leaning, switching hands at 10 steps. If you don't have space to walk, march in place.",
+       "notes": "Banded Lat Pulldowns: Loop a band over the top of the pull-up station, kneel facing it, and pull your elbows down to your sides. Suitcase Carry: Hold one kettlebell at your side and walk tall without leaning, switching hands at 10 steps. If you don't have space to walk, march in place.",
        "clock_min": 16,
        "score_label": "Total rounds",
        "movements": [
-        "Treadmill Run",
-        "Kettlebell Goblet Squats",
-        "Glute Bridges",
+        "Goblet Squats",
+        "Banded Good Mornings",
         "Banded Lat Pulldowns",
-        "Flutter Kicks",
-        "Kettlebell Suitcase Carry",
-        "Plank Shoulder Taps"
+        "Suitcase Carry"
        ]
       }
      ]
@@ -903,8 +836,6 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
         "Bodyweight Good Mornings",
         "Glute Bridges",
         "Air Squats",
@@ -937,8 +868,7 @@
        },
        "movements": [
         "Romanian Deadlift",
-        "Squat Jumps",
-        "Seated Dumbbell Strict Press"
+        "Squat Jumps"
        ]
       },
       {
@@ -946,7 +876,7 @@
        "title": "Conditioning",
        "lines": [
         "Complete as many rounds and reps as possible in 24:00 of:",
-        "200 Meter Treadmill Run",
+        "1:00 Treadmill Run",
         "10 Upright Rows",
         "20 Bicycles"
        ],
@@ -958,9 +888,7 @@
        "score_label": "Rounds + reps, together",
        "score_shared": true,
        "movements": [
-        "Treadmill Run",
-        "Upright Rows",
-        "Bicycles"
+        "Upright Rows"
        ]
       }
      ]
@@ -983,12 +911,8 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
         "Air Squats",
-        "Glute Bridges",
-        "Inchworms",
-        "Bottom-of-Squat Hold"
+        "Glute Bridges"
        ]
       },
       {
@@ -1015,7 +939,6 @@
         "test": null
        },
        "movements": [
-        "Front Squat",
         "Pull-ups"
        ]
       },
@@ -1023,19 +946,17 @@
        "type": "conditioning",
        "title": "Conditioning",
        "lines": [
-        "20:00 total. Switch when the walker finishes.",
-        "Station 1: 400 Meter Incline Treadmill Walk",
-        "Station 2: 3 Walkouts to Down Dog + 10 Glute Bridges + 0:20 Wall Sit, repeated at an easy pace until your partner finishes the walk"
+        "24:00 clock. Switch stations every 4:00.",
+        "Station 1: 4:00 Incline Treadmill Walk",
+        "Station 2: 3 Walkouts to Down Dog + 10 Glute Bridges + 0:20 Wall Sit, repeated at an easy pace for 4:00"
        ],
        "rotation": [
         "One of you starts on the treadmill, the other on Station 2."
        ],
-       "notes": "Walk as fast as you can without running, with the incline set between 8% and 15%. Wall Sit: Back flat against the wall, thighs parallel to the floor.",
-       "clock_min": 20,
+       "notes": "This is intended to be a lighter workout to keep you moving but not beat the body down. Walk as fast as you can without running, with the incline set between 8% and 15%. Wall Sit: Back flat against the wall, thighs parallel to the floor.",
+       "clock_min": 24,
        "score_label": "Walking speed and incline",
        "movements": [
-        "Incline Treadmill Walk",
-        "Walkouts to Down Dog",
         "Glute Bridges",
         "Wall Sit"
        ]
@@ -1068,12 +989,7 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
-        "Band Pull-Aparts",
-        "Scap Push-ups",
-        "Inchworms with a Push-up",
-        "Band Pass-Throughs"
+        "Band Pull-Aparts"
        ]
       },
       {
@@ -1137,19 +1053,18 @@
        "lines": [
         "7 Rounds For Time (cap 18:00):",
         "7 Front Squats",
-        "10 Kettlebell Gorilla Rows (35/25)",
+        "10 Gorilla Rows",
         "12 Alternating Single-Leg V-ups"
        ],
        "rotation": [
-        "You both work at the same time: one of you front squats the barbell, the other a pair of dumbbells."
+        "You can both work at the same time: one of you front squats the barbell, the other a pair of dumbbells."
        ],
-       "notes": "Choose a front squat weight you can do 7 times unbroken every round. Take the barbell from the rack each round. Gorilla Row: Set the kettlebell on the floor between your feet, hinge over, and row it to your ribs, switching arms every rep.",
+       "notes": "Choose a front squat weight you can do 7 reps unbroken every round. Gorilla Row: Set the kettlebell on the floor between your feet, hinge over, and row it to your ribs, switching arms every rep.",
        "clock_min": 18,
        "score_label": "Time",
        "movements": [
-        "Front Squat",
         "Dumbbell Front Squats",
-        "Kettlebell Gorilla Rows",
+        "Gorilla Rows",
         "Alternating Single-Leg V-ups"
        ]
       }
@@ -1173,12 +1088,8 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
-        "Mountain Climbers",
         "Glute Bridges",
         "Bodyweight Good Mornings",
-        "Inchworms",
         "Pogo Hops"
        ]
       },
@@ -1208,24 +1119,23 @@
        },
        "movements": [
         "Romanian Deadlift",
-        "Squat Jumps",
-        "Seated Dumbbell Strict Press"
+        "Squat Jumps"
        ]
       },
       {
        "type": "conditioning",
        "title": "Conditioning",
        "lines": [
-        "6 Giant Sets:",
+        "3-5 Giant Sets:",
         "10 Zottman Curls",
-        "10 Front Raises",
+        "10 Dumbbell Front Raises",
         "12 Banded Tricep Pushdowns",
         "0:30 Front Plank Hold"
        ],
        "rotation": [
-        "Start 1:00 apart, so only one of you is on the dumbbells at a time. Rest 1:00 after each giant set."
+        "Start 1:00 apart, so only one of you is on the dumbbells at a time. Rest 1:00 after each giant set. Each person completes 3-5 total sets."
        ],
-       "notes": "Choose dumbbells you can curl for 12+ reps, then dial them down for the front raises. Zottman Curls: Curl with palms up, turn your palms down at the top, and lower slowly. Banded Tricep Pushdowns: Loop a band over the top of the pull-up station and press it down until your elbows lock, keeping your elbows at your sides.",
+       "notes": "Choose dumbbells you can curl for 12+ reps, then decrease the weight for the front raises. Zottman Curls: Curl with palms up, turn your palms down at the top, and lower slowly. Banded Tricep Pushdowns: Loop a band over the top of the pull-up station and press it down until your elbows lock, keeping your elbows at your sides.",
        "clock_min": 20,
        "score_label": "Curl and raise weights (lb)",
        "movements": [
@@ -1255,12 +1165,9 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
-        "Kettlebell Goblet Squats",
+        "Goblet Squats",
         "Glute Bridges",
-        "Reverse Lunges",
-        "Bottom-of-Squat Hold"
+        "Reverse Lunges"
        ]
       },
       {
@@ -1332,7 +1239,7 @@
         "",
         "10:00-18:00, two rounds each:",
         "Station 1: 2:00 Treadmill Run",
-        "Station 2: 12 Kettlebell Goblet Squats (35/25); rest the remaining time",
+        "Station 2: 12 Goblet Squats; rest the remaining time",
         "",
         "18:00-20:00: Rest",
         "",
@@ -1347,10 +1254,8 @@
        "clock_min": 24,
        "score_label": "Rounds + reps, 20:00-24:00",
        "movements": [
-        "Treadmill Run",
-        "Burpees",
         "Banded Pull-ups",
-        "Kettlebell Goblet Squats"
+        "Goblet Squats"
        ]
       }
      ]
@@ -1381,12 +1286,9 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
         "Air Squats",
         "Glute Bridges",
         "Bodyweight Good Mornings",
-        "Inchworms",
         "Pogo Hops"
        ]
       },
@@ -1416,8 +1318,7 @@
        },
        "movements": [
         "Romanian Deadlift",
-        "Squat Jumps",
-        "Seated Dumbbell Strict Press"
+        "Squat Jumps"
        ]
       },
       {
@@ -1425,7 +1326,7 @@
        "title": "Conditioning",
        "lines": [
         "Complete as many rounds and reps as possible in 24:00 of:",
-        "200 Meter Treadmill Run",
+        "1:00 Treadmill Run",
         "12 Banded Lat Pulldowns",
         "10 Floor Wipers"
        ],
@@ -1437,7 +1338,6 @@
        "score_label": "Rounds + reps, together",
        "score_shared": true,
        "movements": [
-        "Treadmill Run",
         "Banded Lat Pulldowns",
         "Floor Wipers"
        ]
@@ -1462,12 +1362,9 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
-        "Kettlebell Goblet Squats",
+        "Goblet Squats",
         "Glute Bridges",
-        "Reverse Lunges",
-        "Bottom-of-Squat Hold"
+        "Reverse Lunges"
        ]
       },
       {
@@ -1533,17 +1430,15 @@
         "Each minute: 0:40 of work + 0:20 of rest",
         "Station 1: 0:40 of Treadmill Run",
         "Station 2: 0:40 of Arnold Press",
-        "Station 3: 0:40 of Plank Kettlebell Pull-Throughs",
+        "Station 3: 0:40 of Plank Dumbbell Pull-Throughs",
         "Station 4: 0:40 of Jump Rope"
        ],
-       "notes": "One person starts on Station 1, the other on Station 3. Choose dumbbells you can Arnold press for 8+ reps per round. Arnold Press: Start with your palms facing you at your shoulders, then turn them forward as you press overhead. Plank Pull-Throughs: From a high plank, reach under your body and drag the kettlebell to the other side, alternating hands.",
+       "notes": "One person starts on Station 1, the other on Station 3. Choose dumbbells you can Arnold press for 8+ reps per round. Arnold Press: Start with your palms facing you at your shoulders, then turn them forward as you press overhead. Plank Pull-Throughs: From a high plank, reach under your body and drag the dumbbell to the other side, alternating hands.",
        "clock_min": 20,
        "score_label": "Total reps",
        "movements": [
-        "Treadmill Run",
         "Arnold Press",
-        "Plank Kettlebell Pull-Throughs",
-        "Jump Rope"
+        "Plank Dumbbell Pull-Throughs"
        ]
       }
      ]
@@ -1566,13 +1461,7 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
-        "Mountain Climbers",
-        "Band Pull-Aparts",
-        "Scap Push-ups",
-        "Inchworms with a Push-up",
-        "Band Pass-Throughs"
+        "Band Pull-Aparts"
        ]
       },
       {
@@ -1635,9 +1524,9 @@
        "title": "Conditioning",
        "lines": [
         "For Time (cap 20:00):",
-        "800 Meter Treadmill Run",
+        "4:00 Treadmill Run",
         "40 Alternating Reverse Lunges",
-        "30 Russian Kettlebell Swings (35/25)",
+        "30 Russian Kettlebell Swings",
         "20 Burpees",
         "30 Band Pull-Aparts",
         "40 Bicycles"
@@ -1645,16 +1534,12 @@
        "rotation": [
         "One of you starts at the top of the list. The other starts at the bottom and finishes with the run."
        ],
-       "notes": "Russian Kettlebell Swings: Swing the kettlebell to chest height with a snap of your hips.",
+       "notes": "Each lunge step is one rep. Russian Kettlebell Swings: Swing the kettlebell to chest height with a snap of your hips.",
        "clock_min": 20,
        "score_label": "Time",
        "movements": [
-        "Treadmill Run",
         "Reverse Lunges",
-        "Russian Kettlebell Swings",
-        "Burpees",
-        "Band Pull-Aparts",
-        "Bicycles"
+        "Band Pull-Aparts"
        ]
       }
      ]
@@ -1685,12 +1570,9 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
-        "Kettlebell Goblet Squats",
+        "Goblet Squats",
         "Glute Bridges",
-        "Reverse Lunges",
-        "Bottom-of-Squat Hold"
+        "Reverse Lunges"
        ]
       },
       {
@@ -1764,17 +1646,14 @@
        "rotation": [
         "One person starts on Station 1, the other on Station 3."
        ],
-       "notes": "Z-Press: Sit on the floor with your legs straight in front of you and press the dumbbells overhead without leaning back. Russian Twists: Sit tall, lean back slightly, and rotate one dumbbell from hip to hip.",
+       "notes": "Z-Press: Sit on the floor with your legs straight in front of you and press the dumbbells overhead without leaning back. Russian Twists: Sit tall, lean back slightly, and rotate torso back and forth. Each tap on the ground is one rep.",
        "clock_min": 16,
        "score_label": "Total rounds",
        "movements": [
-        "Treadmill Run",
         "Z-Press",
         "Russian Twists",
         "TRX Rows",
-        "Dead Bugs",
-        "Jump Rope",
-        "Bicycles"
+        "Dead Bugs"
        ]
       }
      ]
@@ -1797,13 +1676,8 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
         "Air Squats",
-        "Band Pull-Aparts",
-        "Scap Push-ups",
-        "Inchworms with a Push-up",
-        "Band Pass-Throughs"
+        "Band Pull-Aparts"
        ]
       },
       {
@@ -1868,20 +1742,18 @@
        "title": "Conditioning",
        "lines": [
         "14-12-10-8-6-4 Reps For Time (cap 20:00):",
-        "Russian Kettlebell Swings (35/25)",
-        "Kettlebell Gorilla Rows (35/25)",
+        "Russian Kettlebell Swings",
+        "Kettlebell Gorilla Rows",
         "Burpees"
        ],
        "rotation": [
-        "You both work at the same time, each with your own kettlebell."
+        "6 total rounds with decreasing reps. You both work at the same time, each with your own kettlebell."
        ],
        "notes": "Russian Kettlebell Swings: Swing the kettlebell to chest height with a snap of your hips. Gorilla Rows: Count each arm as one rep.",
        "clock_min": 20,
        "score_label": "Time",
        "movements": [
-        "Russian Kettlebell Swings",
-        "Kettlebell Gorilla Rows",
-        "Burpees"
+        "Gorilla Rows"
        ]
       }
      ]
@@ -1904,11 +1776,8 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
         "Glute Bridges",
         "Bodyweight Good Mornings",
-        "Inchworms",
         "Pogo Hops"
        ]
       },
@@ -1938,32 +1807,29 @@
        },
        "movements": [
         "Romanian Deadlift",
-        "Squat Jumps",
-        "Seated Dumbbell Strict Press"
+        "Squat Jumps"
        ]
       },
       {
        "type": "conditioning",
        "title": "Conditioning",
        "lines": [
-        "4 x 5:00 (23:00 total):",
+        "4 x 5:00 Intervals (23:00 total):",
         "Each set: 1:00 of cardio, then as many rounds and reps as possible in the remaining time of:",
-        "10 Kettlebell Goblet Squats (35/25)",
+        "10 Goblet Squats",
         "10 Band Pull-Aparts",
         "10 Alternating Single-Leg V-ups"
        ],
        "rotation": [
         "Cardio: one of you runs on the treadmill while the other jumps rope; switch every set.",
-        "Rest 1:00 between sets, and pick up where you left off."
+        "Rest 1:00 between intervals, and pick up where you left off."
        ],
        "clock_min": 23,
        "score_label": "Rounds + reps, all 4 sets",
        "movements": [
-        "Kettlebell Goblet Squats",
+        "Goblet Squats",
         "Band Pull-Aparts",
-        "Alternating Single-Leg V-ups",
-        "Treadmill Run",
-        "Jump Rope"
+        "Alternating Single-Leg V-ups"
        ]
       }
      ]
@@ -1994,13 +1860,7 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
-        "Mountain Climbers",
-        "Band Pull-Aparts",
-        "Plank Shoulder Taps",
-        "Inchworms",
-        "Band Pass-Throughs"
+        "Band Pull-Aparts"
        ]
       },
       {
@@ -2036,21 +1896,19 @@
        "title": "Conditioning",
        "lines": [
         "Complete as many rounds and reps as possible in 24:00 of:",
-        "200 Meter Treadmill Run",
+        "1:00 Treadmill Run",
         "10 Spanish Squats",
         "20 Flutter Kicks"
        ],
        "rotation": [
         "You go, I go: one of you completes a full round while the other rests, then switch."
        ],
-       "notes": "Spanish Squats: Loop a heavy band around a rack post and behind your knees, step back until it's tight, and squat with your shins vertical. Flutter Kicks: Keep your low back pressed into the ground; count each kick as one rep.",
+       "notes": "Spanish Squats: Loop a heavy band around a rack post and behind your knees, step back until it's tight, and squat with your shins vertical. An alternative is air squats, or squatting to a bench. Flutter Kicks: Keep your low back pressed into the ground; count each kick as one rep.",
        "clock_min": 24,
        "score_label": "Rounds + reps, together",
        "score_shared": true,
        "movements": [
-        "Treadmill Run",
-        "Spanish Squats",
-        "Flutter Kicks"
+        "Spanish Squats"
        ]
       }
      ]
@@ -2073,12 +1931,9 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
-        "Kettlebell Goblet Squats",
+        "Goblet Squats",
         "Glute Bridges",
-        "Reverse Lunges",
-        "Bottom-of-Squat Hold"
+        "Reverse Lunges"
        ]
       },
       {
@@ -2105,7 +1960,6 @@
         "test": null
        },
        "movements": [
-        "Front Squat",
         "Pull-ups"
        ]
       },
@@ -2122,7 +1976,6 @@
        "clock_min": 18,
        "score_label": "Total reps",
        "movements": [
-        "Treadmill Run",
         "Sit-ups",
         "Crunches",
         "V-ups",
@@ -2149,12 +2002,9 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
         "Air Squats",
         "Glute Bridges",
         "Bodyweight Good Mornings",
-        "Inchworms",
         "Pogo Hops"
        ]
       },
@@ -2184,8 +2034,7 @@
        },
        "movements": [
         "Romanian Deadlift",
-        "Squat Jumps",
-        "Seated Dumbbell Strict Press"
+        "Squat Jumps"
        ]
       },
       {
@@ -2199,12 +2048,10 @@
        "rotation": [
         "One of you starts on the treadmill, the other on Station 2."
        ],
-       "notes": "Walk as fast as you can without running, with the incline set between 8% and 15%. Reverse Plank: Sit with your legs straight, hands behind your hips, and lift your hips until your body is a straight line.",
+       "notes": "This is intended to be a lighter workout to keep you moving but not beat the body down. Walk as fast as you can without running, with the incline set between 8% and 15%. Reverse Plank: Lie on your back with your feet straight out in front of you. Dig your heels and shoulder blades into the ground and lift your hips off the ground.",
        "clock_min": 20,
        "score_label": "Walking speed and incline",
        "movements": [
-        "Incline Treadmill Walk",
-        "Walkouts to Down Dog",
         "Glute Bridges",
         "Reverse Plank"
        ]
@@ -2237,12 +2084,7 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
-        "Band Pull-Aparts",
-        "Scap Push-ups",
-        "Inchworms with a Push-up",
-        "Band Pass-Throughs"
+        "Band Pull-Aparts"
        ]
       },
       {
@@ -2304,23 +2146,23 @@
        "type": "conditioning",
        "title": "Conditioning",
        "lines": [
-        "6 Giant Sets:",
-        "10 Dumbbell Bent-Over Rows",
+        "3-5 Giant Sets:",
+        "10 Double Dumbbell Bent-Over Rows",
         "10 Upright Rows",
         "12 Banded Lat Pulldowns",
-        "10 Plank Kettlebell Pull-Throughs"
+        "10 Plank Kettlebell or Dumbbell Pull-Throughs"
        ],
        "rotation": [
-        "Start 1:00 apart, so only one of you is on the dumbbells at a time. Rest 1:00 after each giant set."
+        "Start 1:00 apart, so only one of you is on the dumbbells at a time. Rest 1:00 after each giant set. Each person completes 3-5 total sets."
        ],
-       "notes": "Choose dumbbells you can row for 12+ reps, then dial them down for the upright rows. Bent-Over Rows: Hinge until your chest is nearly parallel to the floor and pull both dumbbells to your ribs.",
+       "notes": "Choose dumbbells you can row for 12+ reps, then decrease the weight for the upright rows. Bent-Over Rows: Hinge until your chest is nearly parallel to the floor and pull both dumbbells to your ribs.",
        "clock_min": 20,
        "score_label": "Row weight (lb)",
        "movements": [
         "Dumbbell Bent-Over Rows",
         "Upright Rows",
         "Banded Lat Pulldowns",
-        "Plank Kettlebell Pull-Throughs"
+        "Plank Dumbbell Pull-Throughs"
        ]
       }
      ]
@@ -2343,13 +2185,9 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
-        "Mountain Climbers",
-        "Kettlebell Goblet Squats",
+        "Goblet Squats",
         "Glute Bridges",
-        "Reverse Lunges",
-        "Bottom-of-Squat Hold"
+        "Reverse Lunges"
        ]
       },
       {
@@ -2412,19 +2250,18 @@
        "title": "Conditioning",
        "lines": [
         "10 Rounds For Time (cap 18:00):",
-        "10-9-8-7-6-5-4-3-2-1 Bent-Over Rows",
+        "10-9-8-7-6-5-4-3-2-1 Goblet Squats",
         "10-9-8-7-6-5-4-3-2-1 Dips",
         "10 Alternating Single-Leg V-ups every round"
        ],
        "rotation": [
-        "You both work at the same time: one of you rows the barbell and dips on the dip station, the other rows the dumbbells and dips on the bench."
+        "You both work at the same time, each with your own kettlebell: one of you dips on the dip station, the other on the bench."
        ],
-       "notes": "Choose a row weight you can do 10 times unbroken. Choose a dip variation (dip station, bench dips, band-assisted) that allows you to get 8+ reps when fresh.",
+       "notes": "Choose a kettlebell you can goblet squat for 10 reps unbroken. Choose a dip variation (dip station, bench dips, band-assisted) that allows you to get 8+ reps when fresh.",
        "clock_min": 18,
        "score_label": "Time",
        "movements": [
-        "Barbell Bent-Over Rows",
-        "Dumbbell Bent-Over Rows",
+        "Goblet Squats",
         "Dips",
         "Alternating Single-Leg V-ups"
        ]
@@ -2449,11 +2286,8 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
         "Glute Bridges",
         "Bodyweight Good Mornings",
-        "Inchworms",
         "Pogo Hops"
        ]
       },
@@ -2483,8 +2317,7 @@
        },
        "movements": [
         "Romanian Deadlift",
-        "Squat Jumps",
-        "Seated Dumbbell Strict Press"
+        "Squat Jumps"
        ]
       },
       {
@@ -2506,12 +2339,10 @@
        "rotation": [
         "One of you starts on the treadmill, the other on Station 2."
        ],
-       "notes": "Hold the dumbbells at your sides for the lunges. We want the runs in the second block faster than the first.",
+       "notes": "Hold the dumbbells at your sides for the lunges.",
        "clock_min": 22,
        "score_label": "Treadmill speed you held",
        "movements": [
-        "Treadmill Run",
-        "Box Jumps",
         "Box Step-ups",
         "Dumbbell Reverse Lunges"
        ]
@@ -2544,13 +2375,8 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
         "Air Squats",
-        "Band Pull-Aparts",
-        "Scap Push-ups",
-        "Inchworms with a Push-up",
-        "Band Pass-Throughs"
+        "Band Pull-Aparts"
        ]
       },
       {
@@ -2614,18 +2440,18 @@
        "lines": [
         "Complete as many rounds and reps as possible in 24:00 of:",
         "50 Jump Rope Singles",
-        "12 Kettlebell Goblet Squats (35/25)",
+        "12 Goblet Squats",
         "12 Alternating Single-Leg V-ups"
        ],
        "rotation": [
         "You go, I go: one of you completes a full round while the other rests, then switch."
        ],
+       "notes": "You can substitute a 1:00 treadmill run/jog for the jump rope if you'd prefer, or even switch it up partway through the workout.",
        "clock_min": 24,
        "score_label": "Rounds + reps, together",
        "score_shared": true,
        "movements": [
-        "Jump Rope",
-        "Kettlebell Goblet Squats",
+        "Goblet Squats",
         "Alternating Single-Leg V-ups"
        ]
       }
@@ -2649,11 +2475,8 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
         "Glute Bridges",
         "Bodyweight Good Mornings",
-        "Inchworms",
         "Pogo Hops"
        ]
       },
@@ -2711,28 +2534,26 @@
         "estimate_from": 7
        },
        "movements": [
-        "Deadlift",
-        "Squat Jumps",
-        "Seated Dumbbell Strict Press"
+        "Squat Jumps"
        ]
       },
       {
        "type": "conditioning",
        "title": "Conditioning",
        "lines": [
-        "12 Rounds (6 each):",
-        "One of you runs 200 meters on the treadmill while the other does max reps:",
-        "Odd rounds: Bicep Curls",
-        "Even rounds: Banded Tricep Pushdowns"
+        "On the Minute x 16:00 (4 rounds of 4 stations):",
+        "Station 1: 1:00 Treadmill Run",
+        "Station 2: Max reps of Bicep Curls",
+        "Station 3: 1:00 Treadmill Run",
+        "Station 4: Max reps of Banded Tricep Pushdowns"
        ],
        "rotation": [
-        "Switch when the runner finishes 200 meters."
+        "One of you starts on the treadmill, the other on Station 2. Move stations every minute."
        ],
        "notes": "Choose dumbbells you can curl for 12+ reps. Banded Tricep Pushdowns: Loop a band over the top of the pull-up station and press it down until your elbows lock, keeping your elbows at your sides.",
-       "clock_min": 15,
+       "clock_min": 16,
        "score_label": "Total reps",
        "movements": [
-        "Treadmill Run",
         "Bicep Curls",
         "Banded Tricep Pushdowns"
        ]
@@ -2757,13 +2578,9 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
-        "Mountain Climbers",
-        "Kettlebell Goblet Squats",
+        "Goblet Squats",
         "Glute Bridges",
-        "Reverse Lunges",
-        "Bottom-of-Squat Hold"
+        "Reverse Lunges"
        ]
       },
       {
@@ -2826,8 +2643,8 @@
        "title": "Conditioning",
        "lines": [
         "For Time (cap 22:00):",
-        "800 Meter Treadmill Run",
-        "30 Kettlebell Gorilla Rows (35/25)",
+        "4:00 Treadmill Run",
+        "30 Gorilla Rows",
         "40 Flutter Kicks",
         "20 Thrusters",
         "30 Band Pull-Aparts",
@@ -2841,13 +2658,8 @@
        "clock_min": 22,
        "score_label": "Time",
        "movements": [
-        "Treadmill Run",
-        "Kettlebell Gorilla Rows",
-        "Flutter Kicks",
-        "Thrusters",
-        "Dumbbell Thrusters",
-        "Band Pull-Aparts",
-        "Mountain Climbers"
+        "Gorilla Rows",
+        "Band Pull-Aparts"
        ]
       }
      ]
@@ -2878,11 +2690,8 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
         "Glute Bridges",
         "Bodyweight Good Mornings",
-        "Inchworms",
         "Pogo Hops"
        ]
       },
@@ -2938,9 +2747,7 @@
         "estimate_from": 29
        },
        "movements": [
-        "Deadlift",
-        "Squat Jumps",
-        "Seated Dumbbell Strict Press"
+        "Squat Jumps"
        ]
       },
       {
@@ -2955,14 +2762,11 @@
        "rotation": [
         "You both work at the same time: one of you front squats the barbell, the other a pair of dumbbells."
        ],
-       "notes": "Choose a front squat weight you can do 7 times unbroken every round. Take the barbell from the rack each round.",
+       "notes": "Choose a front squat weight you can do 7 reps unbroken every round.",
        "clock_min": 16,
        "score_label": "Time",
        "movements": [
-        "Front Squat",
-        "Dumbbell Front Squats",
-        "Lateral Burpees",
-        "Plank Shoulder Taps"
+        "Dumbbell Front Squats"
        ]
       }
      ]
@@ -2985,13 +2789,8 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
         "Air Squats",
-        "Band Pull-Aparts",
-        "Scap Push-ups",
-        "Inchworms with a Push-up",
-        "Band Pass-Throughs"
+        "Band Pull-Aparts"
        ]
       },
       {
@@ -3053,16 +2852,16 @@
        "type": "conditioning",
        "title": "Conditioning",
        "lines": [
-        "6 Giant Sets:",
+        "3-5 Giant Sets:",
         "10 Zottman Curls",
         "10 Lateral Raises",
-        "10 Dumbbell Side Bends",
+        "20 Dumbbell Side Bends",
         "12 Banded Tricep Pushdowns"
        ],
        "rotation": [
-        "Start 1:00 apart, so only one of you is on the dumbbells at a time. Rest 1:00 after each giant set."
+        "Start 1:00 apart, so only one of you is on the dumbbells at a time. Rest 1:00 after each giant set. Each person completes 3-5 total sets."
        ],
-       "notes": "Choose dumbbells you can curl for 12+ reps, then dial them down for the lateral raises. Side Bends: Hold one dumbbell at your side and bend toward it, 5 per side.",
+       "notes": "Choose dumbbells you can curl for 12+ reps, then decrease the weight for the lateral raises. Side Bends: Hold one dumbbell at your side and bend toward it, 10 per side.",
        "clock_min": 20,
        "score_label": "Curl and raise weights (lb)",
        "movements": [
@@ -3092,12 +2891,9 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
-        "Kettlebell Goblet Squats",
+        "Goblet Squats",
         "Glute Bridges",
-        "Reverse Lunges",
-        "Bottom-of-Squat Hold"
+        "Reverse Lunges"
        ]
       },
       {
@@ -3159,24 +2955,21 @@
        "type": "conditioning",
        "title": "Conditioning",
        "lines": [
-        "3 x 6:00 (20:00 total):",
+        "3 x 6:00 Intervals (20:00 total):",
         "Each set: as many rounds and reps as possible in 6:00 of:",
         "8 Push Press",
-        "10 Russian Kettlebell Swings (35/25)",
+        "10 Russian Kettlebell Swings",
         "20 Mountain Climbers"
        ],
        "rotation": [
         "You both work at the same time: one of you push presses the barbell, the other a pair of dumbbells.",
-        "Rest 1:00 between sets, and pick up where you left off."
+        "Rest 1:00 between intervals, and pick up where you left off."
        ],
-       "notes": "Choose a push press weight you can do 8 times unbroken every round.",
+       "notes": "Choose a push press weight you can do 8 reps unbroken every round.",
        "clock_min": 20,
        "score_label": "Rounds + reps, all 3 sets",
        "movements": [
-        "Push Press",
-        "Dumbbell Push Press",
-        "Russian Kettlebell Swings",
-        "Mountain Climbers"
+        "Push Press"
        ]
       }
      ]
@@ -3207,12 +3000,8 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
-        "Mountain Climbers",
         "Glute Bridges",
         "Bodyweight Good Mornings",
-        "Inchworms",
         "Pogo Hops"
        ]
       },
@@ -3271,9 +3060,7 @@
         "compare_to": 7
        },
        "movements": [
-        "Deadlift",
-        "Squat Jumps",
-        "Seated Dumbbell Strict Press"
+        "Squat Jumps"
        ]
       },
       {
@@ -3281,7 +3068,7 @@
        "title": "Conditioning",
        "lines": [
         "Complete as many rounds and reps as possible in 24:00 of:",
-        "200 Meter Treadmill Run",
+        "1:00 Treadmill Run",
         "12 Bicep Curls",
         "10 Plank Shoulder Taps"
        ],
@@ -3292,9 +3079,7 @@
        "score_label": "Rounds + reps, together",
        "score_shared": true,
        "movements": [
-        "Treadmill Run",
-        "Bicep Curls",
-        "Plank Shoulder Taps"
+        "Bicep Curls"
        ]
       }
      ]
@@ -3317,12 +3102,7 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
-        "Band Pull-Aparts",
-        "Scap Push-ups",
-        "Inchworms with a Push-up",
-        "Band Pass-Throughs"
+        "Band Pull-Aparts"
        ]
       },
       {
@@ -3390,7 +3170,7 @@
         "On the Minute x 20:00 (5 rounds of 4 stations):",
         "Each minute: 0:40 of work + 0:20 of rest",
         "Station 1: 0:40 of Jump Rope",
-        "Station 2: 0:40 of Kettlebell Goblet Squats (35/25)",
+        "Station 2: 0:40 of Goblet Squats",
         "Station 3: 0:40 of Bicycles",
         "Station 4: 0:40 of Easy Treadmill Run"
        ],
@@ -3398,10 +3178,7 @@
        "clock_min": 20,
        "score_label": "Total reps",
        "movements": [
-        "Jump Rope",
-        "Kettlebell Goblet Squats",
-        "Bicycles",
-        "Treadmill Run"
+        "Goblet Squats"
        ]
       }
      ]
@@ -3424,13 +3201,10 @@
        ],
        "clock": "8:30",
        "movements": [
-        "Treadmill Run",
-        "Jump Rope",
         "Air Squats",
-        "Kettlebell Goblet Squats",
+        "Goblet Squats",
         "Glute Bridges",
-        "Reverse Lunges",
-        "Bottom-of-Squat Hold"
+        "Reverse Lunges"
        ]
       },
       {
@@ -3496,10 +3270,10 @@
        "title": "Conditioning",
        "lines": [
         "For Time (cap 24:00):",
-        "1,000 Meter Treadmill Run",
+        "5:00 Treadmill Run",
         "50 Mountain Climbers",
         "40 Russian Twists",
-        "30 Kettlebell Goblet Squats (35/25)",
+        "30 Jumping Lunges",
         "20 Burpees",
         "10 Box Jumps or Box Step-ups"
        ],
@@ -3509,12 +3283,8 @@
        "clock_min": 24,
        "score_label": "Time",
        "movements": [
-        "Treadmill Run",
-        "Mountain Climbers",
         "Russian Twists",
-        "Kettlebell Goblet Squats",
-        "Burpees",
-        "Box Jumps",
+        "Jumping Lunges",
         "Box Step-ups"
        ]
       }

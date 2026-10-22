@@ -653,7 +653,6 @@ function openDemo(name) {
     ? `<div class="video"><iframe src="${esc(m.embed)}" title="${esc(m.name)} demo" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>`
     : '<p class="video-offline">Videos need an internet connection.</p>';
   const body = `${player}
-    ${m.title && m.title !== m.name ? `<p class="s">Video: ${esc(m.title)}</p>` : ""}
     <a class="btn outline big" href="${esc(m.url)}" target="_blank" rel="noopener">Open in Vimeo</a>`;
   showSheet(sheetShell("muted", "Demo", m.name, body, `${m.name} demo`), () => closeSheet());
 }

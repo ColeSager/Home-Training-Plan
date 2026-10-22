@@ -24,6 +24,9 @@ test("every embed keeps the unlisted hash from its url", () => {
   }
 });
 
-test("movements without a video have no embed or title", () => {
-  for (const m of movements.filter((x) => !x.url)) assert.equal(m.embed ?? m.title ?? null, null, m.name);
+test("every entry has exactly name, url and embed, all non-empty", () => {
+  for (const m of movements) {
+    assert.deepEqual(Object.keys(m).sort(), ["embed", "name", "url"], m.name);
+    for (const k of ["name", "url", "embed"]) assert.ok(typeof m[k] === "string" && m[k].length > 0, `${m.name}: ${k}`);
+  }
 });
