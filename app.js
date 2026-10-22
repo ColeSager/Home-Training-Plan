@@ -2,8 +2,8 @@ import { estimateMax, pieceLoads, resolveEstimate, changeSince, strengthMinutes 
 import { loadState, saveState, parseState, storageWorks } from "./store.js";
 
 const PEOPLE = [
-  ["him", "Him"],
-  ["her", "Her"],
+  ["him", "Ryan"],
+  ["her", "Lauren"],
 ];
 const PIECE_LABEL = { warmup: "Warm-Up", strength: "Strength", conditioning: "Conditioning" };
 const LIFT_ORDER = ["bench", "squat", "deadlift"];

@@ -73,7 +73,7 @@ test("logging strength marks it done, folds it, opens conditioning, and persists
   const strength = page.locator("#piece-2-strength");
   await expect(strength).not.toHaveClass(/is-open/);
   await expect(strength.locator(".check")).toBeVisible();
-  await expect(strength.locator(".sum")).toHaveText("Him 115 lb x 10 · Her 75 lb x 10");
+  await expect(strength.locator(".sum")).toHaveText("Ryan 115 lb x 10 · Lauren 75 lb x 10");
   await expect(page.locator("#piece-2-conditioning")).toHaveClass(/is-open/);
   await expect(page.locator(".piece.is-open")).toHaveCount(1);
 
@@ -81,7 +81,7 @@ test("logging strength marks it done, folds it, opens conditioning, and persists
   await expect(page.locator("html[data-ready]")).toBeAttached();
   await openSession(page, 2);
   await expect(page.locator("#piece-2-strength .check")).toBeVisible();
-  await expect(page.locator("#piece-2-strength .sum")).toHaveText("Him 115 lb x 10 · Her 75 lb x 10");
+  await expect(page.locator("#piece-2-strength .sum")).toHaveText("Ryan 115 lb x 10 · Lauren 75 lb x 10");
 });
 
 test("finishing strength and conditioning completes the session and the stepper", async ({ page }) => {
@@ -95,7 +95,7 @@ test("finishing strength and conditioning completes the session and the stepper"
   await expect(page.getByTestId("status")).toHaveText("Session 1 done · 2 to go");
 
   await page.locator("#session-1 .card-toggle").click();
-  await expect(page.locator("#session-1 .pchip")).toHaveText(["Him · 45 lb x 10", "Her · 25 lb x 10", "Rounds + reps, all 4 sets: 9 / 8"]);
+  await expect(page.locator("#session-1 .pchip")).toHaveText(["Ryan · 45 lb x 10", "Lauren · 25 lb x 10", "Rounds + reps, all 4 sets: 9 / 8"]);
 });
 
 test("Session 8 and 9 tests price Sessions 13 to 21 like the fixtures", async ({ page }) => {
@@ -117,7 +117,7 @@ test("Session 8 and 9 tests price Sessions 13 to 21 like the fixtures", async ({
     await openPiece(page, s.n, "strength");
     for (const who of ["him", "her"]) {
       const expected = fx(app.load_kind, src[who]).sessions[String(s.n)];
-      const label = who === "him" ? "Him" : "Her";
+      const label = who === "him" ? "Ryan" : "Lauren";
       await expect(page.locator(`#piece-${s.n}-strength .chip[data-who="${who}"]`)).toHaveText(
         expected.map((v) => `${label} ${v}`),
       );
@@ -180,7 +180,7 @@ test("back up, clear, and restore brings the log back", async ({ page }, info) =
 
   await page.getByRole("button", { name: "Plan", exact: true }).click();
   await openSession(page, 1);
-  await expect(page.locator("#piece-1-strength .sum")).toHaveText("Him 45 lb x 10 · Her 25 lb x 10");
+  await expect(page.locator("#piece-1-strength .sum")).toHaveText("Ryan 45 lb x 10 · Lauren 25 lb x 10");
 });
 
 test("restore rejects a file that is not a backup", async ({ page }, info) => {
@@ -242,7 +242,7 @@ test("Done on warm-up advances to strength; unchecking keeps logged values", asy
   await openPiece(page, 1, "strength");
   await page.locator('#piece-1-strength input[data-action="done"]').click();
   await expect(page.locator("#piece-1-strength .check")).toHaveCount(0);
-  await expect(page.locator("#piece-1-strength .sum")).toHaveText("Him 50 lb x 8 · Her 30 lb x 8");
+  await expect(page.locator("#piece-1-strength .sum")).toHaveText("Ryan 50 lb x 8 · Lauren 30 lb x 8");
 });
 
 test("Weights tab shows estimates, sources, and takes an override", async ({ page }) => {
@@ -264,7 +264,7 @@ test("Weights tab shows estimates, sources, and takes an override", async ({ pag
   await page.getByRole("button", { name: "Plan", exact: true }).click();
   await openSession(page, 13);
   await openPiece(page, 13, "strength");
-  await expect(page.locator('#piece-13-strength .chip[data-who="him"]')).toHaveText(["Him 35", "Him 40", "Him 45", "Him 40"]);
+  await expect(page.locator('#piece-13-strength .chip[data-who="him"]')).toHaveText(["Ryan 35", "Ryan 40", "Ryan 45", "Ryan 40"]);
 });
 
 test("retest shows change since the first test", async ({ page }) => {

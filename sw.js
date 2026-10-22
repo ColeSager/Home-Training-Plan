@@ -1,4 +1,4 @@
-const VERSION = "4";
+const VERSION = "5";
 const CACHE = `htp-v${VERSION}`;
 const NETWORK_FIRST = ["data/plan.json", "data/demos.json"];
 
